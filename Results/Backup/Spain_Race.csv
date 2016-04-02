@@ -1,0 +1,24 @@
+Pos.,No.,Driver,Constructor,Laps,Time/Retired,Grid,Pts.
+1,6,Nico Rosberg,Mercedes,66,1:41:12.555,1,25
+2,44,Lewis Hamilton,Mercedes,66,+17.551,2,18
+3,5,Sebastian Vettel,Ferrari,66,+45.342,3,15
+4,77,Valtteri Bottas,Williams-Mercedes,66,+59.217,4,12
+5,7,Kimi Räikkönen,Ferrari,66,+1:00.002,7,10
+6,19,Felipe Massa,Williams-Mercedes,66,+1:21.314,9,8
+7,3,Daniel Ricciardo,Red Bull Racing-Renault,65,+1 Lap,10,6
+8,8,Romain Grosjean,Lotus-Mercedes,65,+1 Lap,11,4
+9,55,Carlos Sainz Jr.,Toro Rosso-Renault,65,+1 Lap,5,2
+10,26,Daniil Kvyat,Red Bull Racing-Renault,65,+1 Lap,8,1
+11,33,Max Verstappen,Toro Rosso-Renault,65,+1 Lap,6,
+12,12,Felipe Nasr,Sauber-Ferrari,65,+1 Lap,15,
+13,11,Sergio Pérez,Force India-Mercedes,65,+1 Lap,18,
+14,9,Marcus Ericsson,Sauber-Ferrari,65,+1 Lap,16,
+15,27,Nico Hülkenberg,Force India-Mercedes,65,+1 Lap,17,
+16,22,Jenson Button,McLaren-Honda,65,+1 Lap,14,
+17,28,Will Stevens,Marussia-Ferrari,63,+3 Laps,19,
+18,98,Roberto Merhi,Marussia-Ferrari,62,+4 Laps,20,
+Ret,13,Pastor Maldonado,Lotus-Mercedes,45,Collision damage,12,
+Ret,14,Fernando Alonso,McLaren-Honda,26,Brakes,13,
+Source:
+Total Laps,66
+Fastest Lap,Lewis Hamilton

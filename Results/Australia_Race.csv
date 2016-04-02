@@ -1,0 +1,26 @@
+Pos.,No.,Driver,Constructor,Laps,Time/Retired,Grid,Points
+1,6,Nico Rosberg,Mercedes,57,1:48:15.565,2,25
+2,44,Lewis Hamilton,Mercedes,57,+8.060,1,18
+3,5,Sebastian Vettel,Ferrari,57,+9.643,3,15
+4,3,Daniel Ricciardo,Red Bull-TAG Heuer,57,+24.330,8,12
+5,19,Felipe Massa,Williams-Mercedes,57,+58.979,6,10
+6,8,Romain Grosjean,Haas-Ferrari,57,+1:12.081,19,8
+7,27,Nico Hülkenberg,Force India-Mercedes,57,+1:14.199,10,6
+8,77,Valtteri Bottas,Williams-Mercedes,57,+1:15.153,16,4
+9,55,Carlos Sainz Jr.,Toro Rosso-Ferrari,57,+1:15.680,7,2
+10,33,Max Verstappen,Toro Rosso-Ferrari,57,+1:16.833,5,1
+11,30,Jolyon Palmer,Renault,57,+1:23.399,13,
+12,20,Kevin Magnussen,Renault,57,+1:25.606,14,
+13,11,Sergio Pérez,Force India-Mercedes,57,+1:31.699,9,
+14,22,Jenson Button,McLaren-Honda,56,+1 Lap,12,
+15,12,Felipe Nasr,Sauber-Ferrari,56,+1 Lap,17,
+16,94,Pascal Wehrlein,MRT-Mercedes,56,+1 Lap,21,
+Ret,9,Marcus Ericsson,Sauber-Ferrari,38,Driveshaft,15,
+Ret,7,Kimi Räikkönen,Ferrari,21,Turbo,4,
+Ret,88,Rio Haryanto,MRT-Mercedes,17,Driveshaft,22,
+Ret,21,Esteban Gutiérrez,Haas-Ferrari,16,Collision,20,
+Ret,14,Fernando Alonso,McLaren-Honda,16,Collision,11,
+DNS,26,Daniil Kvyat,Red Bull-TAG Heuer,0,Electrical,18,
+Source:
+Total Laps,57
+Fastest Lap,Daniel Ricciardo

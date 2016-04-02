@@ -1,0 +1,24 @@
+Pos.,No.,Driver,Constructor,Laps,Time/Retired,Grid,Pts.
+1,6,Nico Rosberg,Mercedes,71,1:30:16.930,2,25
+2,44,Lewis Hamilton,Mercedes,71,+8.800,1,18
+3,19,Felipe Massa,Williams-Mercedes,71,+17.573,4,15
+4,5,Sebastian Vettel,Ferrari,71,+18.181,3,12
+5,77,Valtteri Bottas,Williams-Mercedes,71,+53.604,6,10
+6,27,Nico Hülkenberg,Force India-Mercedes,71,+1:04.075,5,8
+7,13,Pastor Maldonado,Lotus-Mercedes,70,+1 Lap,10,6
+8,33,Max Verstappen,Toro Rosso-Renault,70,+1 Lap,7,4
+9,11,Sergio Pérez,Force India-Mercedes,70,+1 Lap,13,2
+10,3,Daniel Ricciardo,Red Bull Racing-Renault,70,+1 Lap,18,1
+11,12,Felipe Nasr,Sauber-Ferrari,70,+1 Lap,8,
+12,26,Daniil Kvyat,Red Bull Racing-Renault,70,+1 Lap,15,
+13,9,Marcus Ericsson,Sauber-Ferrari,69,+2 Laps,11,
+14,98,Roberto Merhi,Marussia-Ferrari,68,+3 Laps,16,
+Ret,8,Romain Grosjean,Lotus-Mercedes,34,Gearbox,9,
+Ret,55,Carlos Sainz Jr.,Toro Rosso-Renault,34,Electrical,12,
+Ret,22,Jenson Button,McLaren-Honda,7,Electrical,20,
+Ret,28,Will Stevens,Marussia-Ferrari,1,Oil leak,17,
+Ret,7,Kimi Räikkönen,Ferrari,0,Collision,14,
+Ret,14,Fernando Alonso,McLaren-Honda,0,Collision,19,
+Source:
+Total Laps,71
+Fastest Lap,Nico Rosberg

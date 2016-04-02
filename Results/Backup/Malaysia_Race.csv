@@ -1,0 +1,24 @@
+Pos.,No.,Driver,Constructor,Laps,Time/Retired,Grid,Pts.
+1,5,Sebastian Vettel,Ferrari,56,1:41:05.793,2,25
+2,44,Lewis Hamilton,Mercedes,56,+8.569,1,18
+3,6,Nico Rosberg,Mercedes,56,+12.310,3,15
+4,7,Kimi Räikkönen,Ferrari,56,+53.822,11,12
+5,77,Valtteri Bottas,Williams-Mercedes,56,+1:10.409,8,10
+6,19,Felipe Massa,Williams-Mercedes,56,+1:13.586,7,8
+7,33,Max Verstappen,Toro Rosso-Renault,56,+1:37.762,6,6
+8,55,Carlos Sainz Jr.,Toro Rosso-Renault,55,+1 Lap,15,4
+9,26,Daniil Kvyat,Red Bull Racing-Renault,55,+1 Lap,5,2
+10,3,Daniel Ricciardo,Red Bull Racing-Renault,55,+1 Lap,4,1
+11,8,Romain Grosjean,Lotus-Mercedes,55,+1 Lap,10,
+12,12,Felipe Nasr,Sauber-Ferrari,55,+1 Lap,16,
+13,11,Sergio Pérez,Force India-Mercedes,55,+1 Lap,14,
+14,27,Nico Hülkenberg,Force India-Mercedes,55,+1 Lap,13,
+15,98,Roberto Merhi,Marussia-Ferrari,53,+3 Laps,19,
+Ret,13,Pastor Maldonado,Lotus-Mercedes,46,Brakes,12,
+Ret,22,Jenson Button,McLaren-Honda,40,Turbo,17,
+Ret,14,Fernando Alonso,McLaren-Honda,20,Power Unit,18,
+Ret,9,Marcus Ericsson,Sauber-Ferrari,3,Spun off,9,
+DNS,28,Will Stevens,Marussia-Ferrari,0,Fuel system,20,
+Source:
+Total Laps,56
+Fastest Lap,Nico Rosberg

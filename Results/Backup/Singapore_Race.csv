@@ -1,0 +1,24 @@
+Pos.,No.,Driver,Constructor,Laps,Time/Retired,Grid,Pts
+1,5,Sebastian Vettel,Ferrari,61,2:01:22.118,1,25
+2,3,Daniel Ricciardo,Red Bull Racing-Renault,61,+1.478,2,18
+3,7,Kimi Räikkönen,Ferrari,61,+17.154,3,15
+4,6,Nico Rosberg,Mercedes,61,+24.720,6,12
+5,77,Valtteri Bottas,Williams-Mercedes,61,+34.204,7,10
+6,26,Daniil Kvyat,Red Bull Racing-Renault,61,+35.508,4,8
+7,11,Sergio Pérez,Force India-Mercedes,61,+50.836,13,6
+8,33,Max Verstappen,Toro Rosso-Renault,61,+51.450,8,4
+9,55,Carlos Sainz Jr.,Toro Rosso-Renault,61,+52.860,14,2
+10,12,Felipe Nasr,Sauber-Ferrari,61,+1:30.045,16,1
+11,9,Marcus Ericsson,Sauber-Ferrari,61,+1:37.507,17,
+12,13,Pastor Maldonado,Lotus-Mercedes,61,+1:37.718,18,
+13,8,Romain Grosjean,Lotus-Mercedes,59,Gearbox,10,
+14,53,Alexander Rossi,Marussia-Ferrari,59,+ 2 Laps,20,
+15,28,Will Stevens,Marussia-Ferrari,59,+ 2 Laps,19,
+Ret,22,Jenson Button,McLaren-Honda,52,Gearbox,15,
+Ret,14,Fernando Alonso,McLaren-Honda,33,Gearbox,12,
+Ret,44,Lewis Hamilton,Mercedes,32,Power unit,5,
+Ret,19,Felipe Massa,Williams-Mercedes,30,Gearbox,9,
+Ret,27,Nico Hülkenberg,Force India-Mercedes,12,Collision,11,
+Source:
+Total Laps,61
+Fastest Lap,Daniel Ricciardo

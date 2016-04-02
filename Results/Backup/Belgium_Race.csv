@@ -1,0 +1,24 @@
+Pos.,No.,Driver,Constructor,Laps,Time/Retired,Grid,Pts.
+1,44,Lewis Hamilton,Mercedes,43,1:23:40.387,1,25
+2,6,Nico Rosberg,Mercedes,43,+2.058,2,18
+3,8,Romain Grosjean,Lotus-Mercedes,43,+37.988,9,15
+4,26,Daniil Kvyat,Red Bull Racing-Renault,43,+45.692,12,12
+5,11,Sergio Pérez,Force India-Mercedes,43,+53.997,4,10
+6,19,Felipe Massa,Williams-Mercedes,43,+55.283,6,8
+7,7,Kimi Räikkönen,Ferrari,43,+55.703,16,6
+8,33,Max Verstappen,Toro Rosso-Renault,43,+56.076,18,4
+9,77,Valtteri Bottas,Williams-Mercedes,43,+1:01.040,3,2
+10,9,Marcus Ericsson,Sauber-Ferrari,43,+1:31.234,13,1
+11,12,Felipe Nasr,Sauber-Ferrari,43,+1:42.311,14,
+12,5,Sebastian Vettel,Ferrari,42,Tyre failure,8,
+13,14,Fernando Alonso,McLaren-Honda,42,+ 1 Lap,20,
+14,22,Jenson Button,McLaren-Honda,42,+ 1 Lap,19,
+15,98,Roberto Merhi,Marussia-Ferrari,42,+ 1 Lap,17,
+16,28,Will Stevens,Marussia-Ferrari,42,+ 1 Lap,15,
+Ret,55,Carlos Sainz Jr.,Toro Rosso-Renault,32,Power unit,10,
+Ret,3,Daniel Ricciardo,Red Bull Racing-Renault,19,Electrics,5,
+Ret,13,Pastor Maldonado,Lotus-Mercedes,2,Power unit,7,
+DNS,27,Nico Hülkenberg,Force India-Mercedes,0,Power unit,11,
+Source:
+Total Laps,43
+Fastest Lap,Nico Rosberg
