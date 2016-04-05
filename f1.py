@@ -1,3 +1,5 @@
+# coding=utf-8
+
 import argparse
 import csv
 from collections import defaultdict
@@ -11,29 +13,64 @@ import os
 import matplotlib.pyplot as plt
 import numpy as np
 
-RACES = ['Australia', 'Malaysia', 'China', 'Bahrain',
-         'Spain', 'Monaco', 'Canada', 'Austria',
-         'England', 'Hungary', 'Belgium', 'Italy', 
-         'Singapore', 'Japan', 'Russia', 'America',
-         'Mexico', 'Brazil' , 'Abu dhabi']
+RACES = ['Australia',
+     'Bahrain',
+     'China',
+     'Russia',
+     'Spain',
+     'Monaco',
+     'Canada',
+     'Azerbaijan',
+     'Austria',
+     'England',
+     'Hungary',
+     'Germany',
+     'Belgium',
+     'Italy',
+     'Singapore',
+     'Malaysia',
+     'Japan',
+     'America',
+     'Mexico',
+     'Brazil',
+     'Abu Dhabi']
 
-DRIVERS = {'Rosberg':'Nico Rosberg', 'Hamilton':'Lewis Hamilton', 'Raikkonen':'Kimi Räikkönen',
-           'Perez':'Sergio Pérez', 'Ricciardo':'Daniel Ricciardo', 'Bottas':'Valtteri Bottas',
-          'Hulkenberg':'Nico Hülkenberg', 'Massa':'Felipe Massa', 'Kvyat':'Daniil Kvyat', 
-          'Sainz':'Carlos Sainz Jr.', 'Verstappen':'Max Verstappen', 'Button':'Jenson Button',
-          'Maldonado':'Pastor Maldonado', 'Nasr':'Felipe Nasr', 'Grosjean':'Romain Grosjean',
-          'Vettel':'Sebastian Vettel', 'Alonso':'Fernando Alonso', 'Ericsson':'Marcus Ericsson',
-          'Stevens':'Will Stevens', 'Merhi':'Roberto Merhi', 'Rossi':'Alexander Rossi',
-          'Magnussen':'Kevin Magnussen'}
+DRIVERS = {'Rosberg':'Nico Rosberg', 
+          'Hamilton':'Lewis Hamilton', 
+          'Raikkonen':'Kimi Räikkönen',
+          'Perez':'Sergio Pérez', 
+          'Ricciardo':'Daniel Ricciardo', 
+          'Bottas':'Valtteri Bottas',
+          'Hulkenberg':'Nico Hülkenberg', 
+          'Massa':'Felipe Massa', 
+          'Kvyat':'Daniil Kvyat', 
+          'Sainz':'Carlos Sainz Jr.', 
+          'Verstappen':'Max Verstappen', 
+          'Button':'Jenson Button',
+          'Maldonado':'Pastor Maldonado', 
+          'Nasr':'Felipe Nasr', 
+          'Grosjean':'Romain Grosjean',
+          'Vettel':'Sebastian Vettel', 
+          'Alonso':'Fernando Alonso', 
+          'Ericsson':'Marcus Ericsson',
+          'Stevens':'Will Stevens', 
+          'Merhi':'Roberto Merhi', 
+          'Rossi':'Alexander Rossi',
+          'Magnussen':'Kevin Magnussen',
+          'Vandoorne':'Stoffel Vandoorne',
+          'Gutierrez':'Esteban Gutiérrez',
+          'Wehrlein':'Pascal Wehrlein',
+          'Palmer':'Jolyon Palmer',
+          'Haryanto':'Rio Haryanto'}
 
 DRIVERS_short = {}
 for short, driver in DRIVERS.items():
     DRIVERS_short[driver] = short
 
 URLs = {'Australia':'https://en.wikipedia.org/wiki/2016_Australian_Grand_Prix',
-       'Malaysia':'https://en.wikipedia.org/wiki/2015_Malaysian_Grand_Prix',
-       'China':'https://en.wikipedia.org/wiki/2015_Chinese_Grand_Prix',
-       'Bahrain':'https://en.wikipedia.org/wiki/2015_Bahrain_Grand_Prix',
+       'Malaysia':'https://en.wikipedia.org/wiki/2016_Malaysian_Grand_Prix',
+       'China':'https://en.wikipedia.org/wiki/2016_Chinese_Grand_Prix',
+       'Bahrain':'https://en.wikipedia.org/wiki/2016_Bahrain_Grand_Prix',
        'Spain':'https://en.wikipedia.org/wiki/2015_Spanish_Grand_Prix',
        'Monaco':'https://en.wikipedia.org/wiki/2015_Monaco_Grand_Prix',
        'Canada':'https://en.wikipedia.org/wiki/2015_Canadian_Grand_Prix',
