@@ -12,95 +12,17 @@ from lxml.html.clean import Cleaner
 import os
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
+from unidecode import unidecode
 
-RACES = ['Australia',
-     'Bahrain',
-     'China',
-     'Russia',
-     'Spain',
-     'Monaco',
-     'Canada',
-     'Azerbaijan',
-     'Austria',
-     'England',
-     'Hungary',
-     'Germany',
-     'Belgium',
-     'Italy',
-     'Singapore',
-     'Malaysia',
-     'Japan',
-     'America',
-     'Mexico',
-     'Brazil',
-     'Abu Dhabi']
-
-DRIVERS = {'Rosberg':'Nico Rosberg', 
-          'Hamilton':'Lewis Hamilton', 
-          'Raikkonen':'Kimi Räikkönen',
-          'Perez':'Sergio Pérez', 
-          'Ricciardo':'Daniel Ricciardo', 
-          'Bottas':'Valtteri Bottas',
-          'Hulkenberg':'Nico Hülkenberg', 
-          'Massa':'Felipe Massa', 
-          'Kvyat':'Daniil Kvyat', 
-          'Sainz':'Carlos Sainz Jr.', 
-          'Verstappen':'Max Verstappen', 
-          'Button':'Jenson Button',
-          'Maldonado':'Pastor Maldonado', 
-          'Nasr':'Felipe Nasr', 
-          'Grosjean':'Romain Grosjean',
-          'Vettel':'Sebastian Vettel', 
-          'Alonso':'Fernando Alonso', 
-          'Ericsson':'Marcus Ericsson',
-          'Stevens':'Will Stevens', 
-          'Merhi':'Roberto Merhi', 
-          'Rossi':'Alexander Rossi',
-          'Magnussen':'Kevin Magnussen',
-          'Vandoorne':'Stoffel Vandoorne',
-          'Gutierrez':'Esteban Gutiérrez',
-          'Wehrlein':'Pascal Wehrlein',
-          'Palmer':'Jolyon Palmer',
-          'Haryanto':'Rio Haryanto'}
-
-DRIVERS_short = {}
-for short, driver in DRIVERS.items():
-    DRIVERS_short[driver] = short
-
-URLs = {'Australia':'https://en.wikipedia.org/wiki/2016_Australian_Grand_Prix',
-       'Malaysia':'https://en.wikipedia.org/wiki/2016_Malaysian_Grand_Prix',
-       'China':'https://en.wikipedia.org/wiki/2016_Chinese_Grand_Prix',
-       'Bahrain':'https://en.wikipedia.org/wiki/2016_Bahrain_Grand_Prix',
-       'Spain':'https://en.wikipedia.org/wiki/2015_Spanish_Grand_Prix',
-       'Monaco':'https://en.wikipedia.org/wiki/2015_Monaco_Grand_Prix',
-       'Canada':'https://en.wikipedia.org/wiki/2015_Canadian_Grand_Prix',
-       'Austria':'https://en.wikipedia.org/wiki/2015_Austrian_Grand_Prix',
-       'England':'https://en.wikipedia.org/wiki/2015_British_Grand_Prix',
-       'Hungary':'https://en.wikipedia.org/wiki/2015_Hungarian_Grand_Prix',
-       'Belgium':'https://en.wikipedia.org/wiki/2015_Belgian_Grand_Prix',
-       'Italy':'https://en.wikipedia.org/wiki/2015_Italian_Grand_Prix',
-       'Singapore':'https://en.wikipedia.org/wiki/2015_Singapore_Grand_Prix',
-       'Japan':'https://en.wikipedia.org/wiki/2015_Japanese_Grand_Prix',
-       'Russia':'https://en.wikipedia.org/wiki/2015_Russian_Grand_Prix',
-       'America':'https://en.wikipedia.org/wiki/2015_United_States_Grand_Prix',
-       'Mexico':'https://en.wikipedia.org/wiki/2015_Mexican_Grand_Prix',
-       'Brazil':'https://en.wikipedia.org/wiki/2015_Brazilian_Grand_Prix',
-       'Abu Dhabi':'https://en.wikipedia.org/wiki/2015_Abu_Dhabi_Grand_Prix',
-       }
-
-###Parse Command Line Arguments
-parser = argparse.ArgumentParser(description='Process F1 Races')
-parser.add_argument('direction', type=str)
-parser.add_argument('race', type=str)
-args = parser.parse_args()
-#Validate entries
-if args.direction not in ['push', 'pull']:
-    print(args.direction, 'is invalid.  F1 must either push or pull.  See F1.py -h for help.')
-    exit()
-if args.race not in RACES:
-    print(args.race.capitalize(), 'is an invalid race.  Please select from the following: \n', RACES)
-    exit()
-
+#Build up globals from season documents
+seasons = pd.DataFrame.from_csv('season_info.csv')
+RACES = list(seasons['Country'])
+URLs = {seasons['Country'][i]:seasons['url'][i] for i in range(len(seasons))}
+drivers = pd.DataFrame.from_csv('driver_info.csv')
+DRIVERS = list(drivers['GivenName'] + " " + drivers['FamilyName'])
+conv_DRIVERS = {unidecode(drivers['FamilyName'][i]):(drivers['GivenName'][i] + " " + drivers['FamilyName'][i])
+                for i in range(len(drivers))}
 
 ### Class Definitions ###
 class Team():
@@ -123,36 +45,26 @@ class Team():
         for line in teams:
             self.teams[line[1]] = line[2::]
             
-    def drop(self, team, racer):
+    def drop(self, team, driver):
         if team not in self.teams:
             print(team, 'is not in the league.  Try', self.name + '.teams to see your options.')
             raise
-        if DRIVERS[racer] not in self.teams[team]:
-            print(racer, 'is not on', team + "'s team.  Try", self.name + '.teams to see the current teams.')
+        if driver not in self.teams[team]:
+            print(driver, 'is not on', team + "'s team.  Try", self.name + '.teams to see the current teams.')
             raise
-        self.teams[team].remove(DRIVERS[racer])
-        self.push()
-        
-    def push(self):
-        """Push self.teams to the csv"""
-        header = [['Player', 'Driver1', 'Driver2', 'Driver3', 'Driver4', 'Driver5']]
-        for player in self.teams.keys():
-            header.append([player])
-            header[header.index([player])].extend(self.teams[player])     
-        with open('teams/team_' + self.name + '.csv', 'wt', newline='') as f:
-            csv_writer = csv.writer(f)
-            csv_writer.writerows(header)
-        
-    def add(self, team, racer):
+        self.teams[team].remove(driver)
+        #self.push()
+                
+    def add(self, team, driver):
         if team not in self.teams:
             print(team, 'is not in the league.  Try', self.name + '.teams to see your options.')
             raise
         if len(self.teams[team]) == 5:
-            print(team + "'s team already has five drivers.  Consider using .drop or .replace")
-        if racer not in DRIVERS:
-            print(racer + "is not a valid driver.  Please select from the following:\n", DRIVERS)
-        self.teams[team].append(DRIVERS[racer])  
-        self.push()
+            print(team + "'s team already has five drivers.  Consider using drop or replace")
+        if driver not in DRIVERS:
+            print(driver + "is not a valid driver.  Please select from the following:\n", DRIVERS)
+        self.teams[team].append(driver)
+        #self.push()
         
     def replace(self, team, drop_racer, add_racer):
         if team not in self.teams:
@@ -163,8 +75,18 @@ class Team():
             raise
         self.teams[team].remove(DRIVERS[drop_racer])
         self.teams[team].append(DRIVERS[add_racer])
-        self.push()
+        #self.push()
         
+    def push(self):
+        """Push self.teams to the csv"""
+        header = [['Player', 'Driver1', 'Driver2', 'Driver3', 'Driver4', 'Driver5']]
+        for player in self.teams.keys():
+            header.append([player])
+            header[header.index([player])].extend(self.teams[player])     
+        with open('teams/team_' + self.name + '.csv', 'wt', newline='') as f:
+            csv_writer = csv.writer(f)
+            csv_writer.writerows(header)
+            
     def __repr__(self):
         print_string = ''
         for team in self.teams:
@@ -181,8 +103,6 @@ class Team():
                 driver_cost[val[0]] = val[cost_column]
         budget = 33
         for driver in self.teams[team]:
-            if driver not in DRIVERS.values():
-                driver = DRIVERS[driver]
             budget -= int(driver_cost[driver])
         return budget
 
@@ -202,21 +122,25 @@ class Race():
             raise
         self.name = name
         with open('Results/' + self.name + '_Qualifying.csv', 'rt', newline='') as f:
-            qualifying_results = [line.split(',') for line in f if len(line.split(',')) > 1]
+            qualifying_results = [line.split(',') for line in f if len(line.split(',')) > 2]
             qualifying_results.pop(0) #remove header
         with open('Results/' + self.name + '_Race.csv', 'rt', newline='') as f:
             race_results = [line.split(',') for line in f if len(line.split(',')) > 1]
             race_results.pop(0) #remove header
         self.fastest_lap = race_results.pop()[1].strip()
-        self.lap_length = race_results.pop()[1].strip()
-        self.drivers = {line[2].strip() for line in qualifying_results}
+        self.lap_length = int(race_results.pop()[1].strip())
+        self.drivers = {line[2].strip() for line in qualifying_results if line[2] != ""}
         self.drivers_position = {}
         self.drivers_points = {}
         self.drivers_cost = {}
         self.grid_position = {}
         self.qualifying_position = {}
         self.constructor_finish = {}
+        self.laps_completed = {}
         self.drivers_team = {}
+        self.fantasy_points = {}
+        self.q_round = {}
+        #Go through Race Results file and build attributes
         for line in race_results:
             if line[7].strip() == '':
                 self.drivers_points[line[2]] = 0
@@ -226,10 +150,12 @@ class Race():
                 self.drivers_position[line[2]] = int(line[0])
             else:
                 self.drivers_position[line[2]] = line[0]
-            try:
+            if line[6].isdigit():
                 self.grid_position[line[2]] = int(line[6])
-            except:
-                self.grid_position[line[2]] = max(self.grid_position.values()) + 1
+            elif line[6] == 'PL':
+                self.grid_position[line[2]] = 'PL'
+            else:
+                self.grid_position[line[2]] = 'DNS'
             if line[3].strip() not in self.constructor_finish and line[0].strip().isdigit():
                 self.constructor_finish[line[3]] = [int(line[0])]
             elif line[0].strip().isdigit():
@@ -237,38 +163,82 @@ class Race():
             else:
                 self.constructor_finish[line[3]] = [0]
             self.drivers_team[line[2]] = line[3]
+            self.laps_completed[line[2]] = line[4]
         for line in qualifying_results:
-            try:
-                self.qualifying_position[line[2]] = int(line[0])
-            except:
-                self.qualifying_position[line[2]] = "DNF"
-        self.fantasy_points = {}
-        for line in race_results:
-            driver = line[2]
-            #Award points for finishing in the top 10
-            self.fantasy_points[driver] = Fantasy_Finish_Points_Dict[self.drivers_position[driver]]
-            #Award points for completing the race
-            if int(line[4])/int(self.lap_length) > .9:
-                self.fantasy_points[driver] += 3
-            elif int(line[4])/int(self.lap_length) > .5:
-                self.fantasy_points[driver] += 1
-        for driver in self.fantasy_points:
-            #Award bonus point for being the fastest on the team
-            if self.drivers_position[driver] == min(self.constructor_finish[self.drivers_team[driver]]):
-                self.fantasy_points[driver] += 1
-            #Award movement bonus points
-            if type(self.drivers_position[driver]) == int and type(self.grid_position[driver]) == int:
-                if self.grid_position[driver] > self.drivers_position[driver] and self.drivers_position[driver] <= 10:
-                    self.fantasy_points[driver] += min(self.grid_position[driver] - self.drivers_position[driver], 10)
-        for line in qualifying_results:
-            driver = line[2]
-            if line[0].isdigit():
-                if int(line[0]) == 1:
-                    self.fantasy_points[driver] += 3
-                elif int(line[0]) <= 10:
-                    self.fantasy_points[driver] += 2
-                elif int(line[0]) <= 15:
-                    self.fantasy_points[driver] += 1
+            if line[2] in self.drivers:
+                try:
+                    self.qualifying_position[line[2]] = int(line[0])
+                except:
+                    self.qualifying_position[line[2]] = 'DNF'
+                if line[6] != "":
+                    self.q_round[line[2]] = 3
+                elif line[5] != "":
+                    self.q_round[line[2]] = 2
+                elif line[4] != "":
+                    self.q_round[line[2]] = 1
+                else:
+                    self.q_round[line[2]] = 0
+                                
+    def score(self):
+        ###Instead we're building a dataframe
+        fantasy_points = pd.DataFrame(columns=['Team', 'Qualifying', 'Grid', 'Eff_Grid', 'Finish',
+                                               'Qual_Pts', 'Fin_Pts', 'Team_Pts', 'Movement_Pts', 
+                                               'Completion', 'Fst_Lap', 'Total_Race_Pts'], index=self.drivers)
+        for driver in self.drivers_team:
+            fantasy_points.ix[driver, 'Team'] = self.drivers_team[driver]
+        for driver in self.qualifying_position:
+            fantasy_points.ix[driver, 'Qualifying'] = self.qualifying_position[driver]
+        for driver in self.grid_position:
+            fantasy_points.ix[driver, 'Grid'] = self.grid_position[driver]
+        for driver in self.drivers_position:
+            fantasy_points.ix[driver, 'Finish'] = self.drivers_position[driver]
+        fantasy_points.Grid.fillna('DNS', inplace=True)
+        ordered_position = OrderedDict(sorted(self.grid_position.items(), key=lambda t: str(t[1])))
+        ordered_position = OrderedDict(sorted(ordered_position.items(), key=lambda t: len(str(t[1]))))
+        pos = 1
+        for driver, position in ordered_position.items():
+            if fantasy_points.ix[driver, 'Finish'] == 'Ret':
+                fantasy_points.ix[driver, 'Eff_Grid'] = np.NaN
+            elif fantasy_points.ix[driver, 'Finish'] == 'DNS':
+                fantasy_points.ix[driver, 'Eff_Grid'] = np.NaN
+            elif str(position).isdigit():
+                fantasy_points.ix[driver, 'Eff_Grid'] = pos
+                pos += 1
+            elif position == "PL":
+                fantasy_points.ix[driver, 'Eff_Grid'] = pos
+                pos += 1
+        for driver, q_round in self.q_round.items():
+            if self.qualifying_position[driver] == 1:
+                fantasy_points.ix[driver, 'Qual_Pts'] = q_round
+            else:
+                fantasy_points.ix[driver, 'Qual_Pts'] = max(q_round - 1, 0)
+        for driver, pos in self.drivers_position.items():
+            if str(pos).isdigit():
+                fantasy_points.ix[driver, 'Fin_Pts'] = max(11 - pos, 0)
+            else:
+                fantasy_points.ix[driver, 'Fin_Pts'] = 0
+        fantasy_points.sort_values(['Team', 'Finish'], ascending=[True, True], inplace=True)
+        grouped = fantasy_points[(fantasy_points['Finish'] != 'Ret') & (fantasy_points['Finish'] != 'DNS')].groupby('Team')
+        team_points = list(grouped.first()['Finish'])        
+        fantasy_points['Team_Pts'][fantasy_points['Finish'].isin(team_points)] = 1
+        fantasy_points['Team_Pts'].fillna(0, inplace=True)
+        fantasy_points['Movement_Pts'] = fantasy_points['Eff_Grid'][fantasy_points['Eff_Grid'].isin(range(23))] -         fantasy_points['Finish'][fantasy_points['Finish'].isin(range(23))]
+        fantasy_points['Movement_Pts'].fillna(0, inplace=True)
+        fantasy_points['Movement_Pts'][fantasy_points['Movement_Pts'] < 0] = 0
+        fantasy_points.ix[self.fastest_lap, 'Fst_Lap'] = 2
+        fantasy_points['Fst_Lap'].fillna(0, inplace=True)
+        for driver, laps in self.laps_completed.items():
+            if int(laps) / self.lap_length >= .9:
+                fantasy_points.ix[driver, 'Completion'] = 3
+            elif int(laps) / self.lap_length >= .5:
+                fantasy_points.ix[driver, 'Completion'] = 1
+            else:
+                fantasy_points.ix[driver, 'Completion'] = 0
+        fantasy_points['Total_Race_Pts'] = fantasy_points['Qual_Pts'] + fantasy_points['Fin_Pts'] + fantasy_points['Team_Pts'] + fantasy_points['Movement_Pts'] + fantasy_points['Completion'] + fantasy_points['Fst_Lap']
+        fantasy_points.to_csv('races/' + self.name + '.csv')
+        for driver in self.drivers:
+            self.fantasy_points[driver] = fantasy_points.ix[driver, 'Total_Race_Pts']
+        return fantasy_points
                 
     def __repr__(self):
         ordered_position = OrderedDict(sorted(self.drivers_position.items(), key=lambda t: str(t[1])))
@@ -286,7 +256,7 @@ class Race():
             if list(self.grid_position.values()).count(position) > 1:
                 print("WARNING: Two drivers have the same grid position.  Use", self.name + '.update_grid to correct this.')
             self.print_grid()
-            self.push()
+            #self.push()
         else:
             print(driver, 'is not a valid driver.  See', self.name + '.drivers to see valid names.')
         
@@ -298,7 +268,7 @@ class Race():
             if list(self.qualifying_position.values()).count(position) > 1:
                 print("WARNING: Two drivers have the same qualifying position.  Use", self.name + '.update_qualifying to correct this.')
             self.print_qualifying()
-            self.push()
+            #self.push()
         else:
             print(driver, 'is not a valid driver.  See', self.name + '.drivers to see valid names.')
         
@@ -310,7 +280,7 @@ class Race():
             if list(self.drivers_position.values()).count(position) > 1:
                 print("WARNING: Two drivers have the same finish position.  Use", self.name + '.update_finish to correct this.')
             self.print_race()
-            self.push()
+            #self.push()
         else:
             print(driver, 'is not a valid driver.  See', self.name + '.drivers to see valid names.')
             
@@ -467,6 +437,20 @@ def download(race):
 
 ### Command Line work flow ###
 if __name__ == '__main__':
+    ###Parse Command Line Arguments
+    parser = argparse.ArgumentParser(description='Process F1 Races')
+    parser.add_argument('direction', type=str)
+    parser.add_argument('race', type=str)
+    args = parser.parse_args()
+
+    #Validate entries
+    if args.direction not in ['push', 'pull']:
+        print(args.direction, 'is invalid.  F1 must either push or pull.  See F1.py -h for help.')
+        exit()
+    if args.race not in RACES:
+        print(args.race.capitalize(), 'is an invalid race.  Please select from the following: \n', RACES)
+        exit()
+
     if args.direction == 'pull':
         answer = input('Would you like to download results from Wikipedia? [y/n] ').lower()
         if answer == 'y':
@@ -486,16 +470,19 @@ if __name__ == '__main__':
                 print(team + "'s team is overbudget by " + str(ThisTeam.validate(team)) + 'points.')
         answer = input('Would you like to update any of the team members? [y/n] ').lower()
         while answer == 'y':
-            update_player = input('Enter your update command and options: \nadd|drop|replace   team driver   [driver2] \n')
-            if update_player.split()[0].lower() == 'add':
-                ThisTeam.add(update_player.split()[1], update_player.split()[2])
-            elif update_player.split()[0].lower() == 'drop':
-                ThisTeam.drop(update_player.split()[1], update_player.split()[2])
-            elif update_player.split()[0].lower() == 'replace':
-                if len(update_player.split()) != 4:
+            update_player = input('Enter your update command and options: \nadd|drop|replace   team   driver   [driver2] \n').split()
+            update_player[2] = conv_DRIVERS[update_player[2]]
+            if len(update_player) == 4:
+                update_player[3] = conv_DRIVERS[update_player[3]]
+            if update_player[0].lower() == 'add':
+                ThisTeam.add(update_player[1], update_player[2])
+            elif update_player[0].lower() == 'drop':
+                ThisTeam.drop(update_player[1], update_player[2])
+            elif update_player[0].lower() == 'replace':
+                if len(update_player) != 4:
                     print('Must enter one team name, one racer to drop, and one racer to add, seperated by spaces.')
                     continue
-                ThisTeam.replace(update_player.split()[1], update_player.split()[2], update_player.split()[3])
+                ThisTeam.replace(update_player[1], update_player[2], update_player[3])
             else:
                 print("Invalid method.  Must use add, drop, or update.")
             print(ThisTeam)
@@ -527,18 +514,21 @@ if __name__ == '__main__':
             ThisRace.update_race(update_race.split()[0], update_race.split()[1])
             ThisRace.print_race()
             answer = input('Additional updates? [y/n] ').lower()
-
-    if args.direction == 'push':
-        This_Race = Race(args.race)
-        This_Team = Team(args.race)
-        This_Race.push_to_season(This_Team)
+        answer = input('\nWould you like to save these race results? [y/n] ').lower()
+        if answer == 'y':
+            ThisRace.score()
+        ThisRace.push_to_season(ThisTeam)
         print('Race results were successfully pushed to the season tracking documents.\n')
         answer = input('Would you like to view the season results? [y/n] ').lower()
         if answer == 'y':
-            season = [Race(race) for race in RACES[0:max(RACES.index(args.race) - 1, 1)]]
-            season.append(This_Race)
-            season_teams = [Team(team) for team in RACES[0:max(RACES.index(args.race) - 1, 1)]]
-            season_teams.append(This_Team)
+            print('RACES:\n', RACES)
+            season = [Race(race) for race in RACES[0:max(RACES.index(args.race), 1)]]
+            season.append(ThisRace)
+            print([race.name for race in season])
+            for race in season:
+                race.score()
+            season_teams = [Team(team) for team in RACES[1:max(RACES.index(args.race), 1)]]
+            season_teams.append(ThisTeam)
             user_num = 'y'
             while user_num != 'stop':
                 user_num = input('Please select a graph:\n1. Driver Championship points\n2.  Fantasy Driver points\n3.  Fantasy Team Points\n4.  Driver Ratio Scatter\nOr press q to quit\n')
@@ -589,27 +579,27 @@ if __name__ == '__main__':
                     plt.ylabel('Points')
                     plt.show()
                 elif user_num == '4':
-                    list_driver_fantasy_pts = {}
+                    list_driver_fantasy_pts = defaultdict(list)
                     avg_driver_fantasy_pts = {}
+                    next_race_cost = {}
+                    race_num = RACES.index(season[-1].name)
                     for race in season:
+                        print(race.fantasy_points)
                         for driver, points in race.fantasy_points.items():
-                            if driver not in list_driver_fantasy_pts:
-                                list_driver_fantasy_pts[driver] = [points]
-                            else:
-                                list_driver_fantasy_pts[driver].append(points)
+                            list_driver_fantasy_pts[driver].append(points)
+                    
                     for driver, lst in list_driver_fantasy_pts.items():
-                        if driver in season[-1].drivers_cost:
-                            avg_driver_fantasy_pts[driver] = sum(lst)/len(lst)
-                            #avg_driver_fantasy_pts[driver].append(season[-1].drivers_cost[driver])
+                        avg_driver_fantasy_pts[driver] = sum(lst)/len(lst)
+                        next_race_cost[driver] = sum(lst[max(0, race_num - 4)::]) / sum([sum(vals[max(0, race_num - 4)::]) for vals in list_driver_fantasy_pts.values()]) * 100 
+                        print(sum(lst[max(0, race_num - 4)::]))
+                    print(next_race_cost)
                     fig, ax = plt.subplots()
-                    print([driver for driver in avg_driver_fantasy_pts.keys()])
-                    print(season[-1].drivers_cost)
-                    ax.scatter([float(season[-1].drivers_cost[driver]) for driver in avg_driver_fantasy_pts.keys()], list(avg_driver_fantasy_pts.values()))
+                    ax.scatter([next_race_cost[drivers] for drivers in avg_driver_fantasy_pts.keys()], list(avg_driver_fantasy_pts.values()))
                     ax.plot(np.arange(0,12), np.arange(0,12) * 1.5, 'r--', label='Average Ratio')
                     ax.set_title('Ratio of Average Points To Current Cost')
                     ax.set_xlabel('Current Cost')
-                    ax.set_ylabel('Ratio')
-                    for name, y, x in zip([DRIVERS_short[driver] for driver in avg_driver_fantasy_pts.keys()], avg_driver_fantasy_pts.values(), [float(season[-1].drivers_cost[driver]) for driver in avg_driver_fantasy_pts.keys()]):
+                    ax.set_ylabel('Average POints')
+                    for name, y, x in zip([driver for driver in avg_driver_fantasy_pts.keys()], avg_driver_fantasy_pts.values(), next_race_cost.values()):
                         ax.annotate(name, xy=(x, y), color='blue', ha='center', va='center', xytext=(0,-10), textcoords='offset points')
                     plt.show()
                 elif user_num == 'q' or user_num == 'Q':
