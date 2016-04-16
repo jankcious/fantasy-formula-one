@@ -34,7 +34,7 @@ class Team():
         if name not in RACES:
             print(name, 'is an invalid race name.\nPlease select from the following:\n', RACES)
         self.name = name
-        with open('Teams/team_' + self.name + '.csv', 'rt', newline="\r\n") as f:
+        with open('teams/team_' + self.name + '.csv', 'rt', newline="\r\n") as f:
             teams = [line.replace('"', '').split(',') for line in f if len(line.split(',')) > 1]
             teams.pop(0) #remove header
         pattern = re.compile('^(.*?)\(')
@@ -521,14 +521,18 @@ if __name__ == '__main__':
         print('Race results were successfully pushed to the season tracking documents.\n')
         answer = input('Would you like to view the season results? [y/n] ').lower()
         if answer == 'y':
-            print('RACES:\n', RACES)
             season = [Race(race) for race in RACES[0:max(RACES.index(args.race), 1)]]
             season.append(ThisRace)
             print([race.name for race in season])
             for race in season:
                 race.score()
-            season_teams = [Team(team) for team in RACES[1:max(RACES.index(args.race), 1)]]
-            season_teams.append(ThisTeam)
+            if args.race == 'Bahrain':
+                season_teams = []
+                season_teams.append(ThisTeam)
+            else:
+                season_teams = [Team(team) for team in RACES[1:max(RACES.index(args.race), 1)]]
+                season_teams.append(ThisTeam)
+            print(season_teams)
             user_num = 'y'
             while user_num != 'stop':
                 user_num = input('Please select a graph:\n1. Driver Championship points\n2.  Fantasy Driver points\n3.  Fantasy Team Points\n4.  Driver Ratio Scatter\nOr press q to quit\n')
@@ -538,10 +542,13 @@ if __name__ == '__main__':
                         for driver, points in race.drivers_points.items():
                             driver_champ_pts[driver] += points
                     sorted_dict = sorted(driver_champ_pts.items(), key=lambda x:x[1], reverse=True)
+                    print(sorted_dict)
                     x_pos = np.arange(len(sorted_dict))
                     points = [drivers[1] for drivers in sorted_dict]
+                    print(x_pos)
+                    print(points)
                     plt.bar(x_pos, points, align='center', alpha=0.7)
-                    plt.xticks(x_pos, [x[0] for x in sorted_dict], rotation=45)
+                    plt.xticks(x_pos, [x[0] for x in sorted_dict], rotation=90)
                     plt.xlim([-1, len(sorted_dict)])
                     plt.title('Drivers Championship Points')
                     plt.xlabel('Driver')
@@ -556,7 +563,7 @@ if __name__ == '__main__':
                     x_pos = np.arange(len(sorted_dict))
                     points = [drivers[1] for drivers in sorted_dict]
                     plt.bar(x_pos, points, align='center', alpha=0.7)
-                    plt.xticks(x_pos, [x[0] for x in sorted_dict], rotation=45)
+                    plt.xticks(x_pos, [x[0] for x in sorted_dict], rotation=90)
                     plt.xlim([-1, len(sorted_dict)])
                     plt.title('Drivers Fantasy Points')
                     plt.xlabel('Driver')
@@ -564,15 +571,18 @@ if __name__ == '__main__':
                     plt.show()
                 elif user_num == '3':
                     team_points = defaultdict(int)
-                    for race_num, race in enumerate(season):
+                    for race_num, race in enumerate(season_teams):
                         for team, drivers in season_teams[race_num].teams.items():
                             for driver in drivers:
-                                team_points[team] += race.fantasy_points[driver]
+                                team_points[team] += season[race_num + 1].fantasy_points[driver]
+                                print(team, 'gets', season[race_num + 1].fantasy_points[driver], 'points.')
+                                print(team, 'has', team_points[team], 'points total.')
+                            team_points[team] += season_teams[race_num].validate(team)
                     sorted_dict = sorted(team_points.items(), key=lambda x:x[1], reverse=True)
                     x_pos = np.arange(len(sorted_dict))
                     points = [x[1] for x in sorted_dict]
                     plt.bar(x_pos, points, align='center', alpha=0.7)
-                    plt.xticks(x_pos, [x[0] for x in sorted_dict], rotation=45)
+                    plt.xticks(x_pos, [x[0] for x in sorted_dict], rotation=90)
                     plt.xlim([-1, len(sorted_dict)])
                     plt.title('Team Fantasy Points')
                     plt.xlabel('Team')
@@ -584,15 +594,12 @@ if __name__ == '__main__':
                     next_race_cost = {}
                     race_num = RACES.index(season[-1].name)
                     for race in season:
-                        print(race.fantasy_points)
                         for driver, points in race.fantasy_points.items():
                             list_driver_fantasy_pts[driver].append(points)
                     
                     for driver, lst in list_driver_fantasy_pts.items():
                         avg_driver_fantasy_pts[driver] = sum(lst)/len(lst)
                         next_race_cost[driver] = sum(lst[max(0, race_num - 4)::]) / sum([sum(vals[max(0, race_num - 4)::]) for vals in list_driver_fantasy_pts.values()]) * 100 
-                        print(sum(lst[max(0, race_num - 4)::]))
-                    print(next_race_cost)
                     fig, ax = plt.subplots()
                     ax.scatter([next_race_cost[drivers] for drivers in avg_driver_fantasy_pts.keys()], list(avg_driver_fantasy_pts.values()))
                     ax.plot(np.arange(0,12), np.arange(0,12) * 1.5, 'r--', label='Average Ratio')
