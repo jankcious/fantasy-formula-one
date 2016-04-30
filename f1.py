@@ -225,6 +225,7 @@ class Race():
         fantasy_points['Movement_Pts'] = fantasy_points['Eff_Grid'][fantasy_points['Eff_Grid'].isin(range(23))] -         fantasy_points['Finish'][fantasy_points['Finish'].isin(range(23))]
         fantasy_points['Movement_Pts'].fillna(0, inplace=True)
         fantasy_points['Movement_Pts'][fantasy_points['Movement_Pts'] < 0] = 0
+        fantasy_points['Movement_Pts'][fantasy_points['Movement_Pts'] > 10] = 10
         fantasy_points.ix[self.fastest_lap, 'Fst_Lap'] = 2
         fantasy_points['Fst_Lap'].fillna(0, inplace=True)
         for driver, laps in self.laps_completed.items():
