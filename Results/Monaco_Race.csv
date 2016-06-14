@@ -1,0 +1,26 @@
+Pos.,No.,Driver,Constructor,Laps,Time/Retired,Grid,Pts.
+1,44,Lewis Hamilton,Mercedes,78,1:59:29.133,3,25
+2,3,Daniel Ricciardo,Red Bull Racing-TAG Heuer,78,+7.252,1,18
+3,11,Sergio Pérez,Force India-Mercedes,78,+13.825,7,15
+4,5,Sebastian Vettel,Ferrari,78,+15.846,4,12
+5,14,Fernando Alonso,McLaren-Honda,78,+1:25.076,9,10
+6,27,Nico Hülkenberg,Force India-Mercedes,78,+1:32.999,5,8
+7,6,Nico Rosberg,Mercedes,78,+1:33.290,2,6
+8,55,Carlos Sainz Jr.,Toro Rosso-Ferrari,77,+1 Lap,6,4
+9,22,Jenson Button,McLaren-Honda,77,+1 Lap,13,2
+10,19,Felipe Massa,Williams-Mercedes,77,+1 Lap,14,1
+11,21,Esteban Gutiérrez,Haas-Ferrari,77,+1 Lap,12,
+12,77,Valtteri Bottas,Williams-Mercedes,77,+1 Lap,10,
+13,8,Romain Grosjean,Haas-Ferrari,76,+2 Laps,15,
+14,94,Pascal Wehrlein,MRT-Mercedes,76,+2 Laps,20,
+15,88,Rio Haryanto,MRT-Mercedes,74,+4 Laps,19,
+Ret,9,Marcus Ericsson,Sauber-Ferrari,51,Collision damage,17,
+Ret,12,Felipe Nasr,Sauber-Ferrari,48,Collision damage,PL,
+Ret,33,Max Verstappen,Red Bull Racing-TAG Heuer,34,Accident,PL,
+Ret,20,Kevin Magnussen,Renault,32,Collision damage,16,
+Ret,26,Daniil Kvyat,Toro Rosso-Ferrari,18,Collision/Electrical,8,
+Ret,7,Kimi Räikkönen,Ferrari,10,Accident damage,11,
+Ret,30,Jolyon Palmer,Renault,7,Accident,18,
+Source:
+Total Laps,78
+Fastest Lap,Lewis Hamilton

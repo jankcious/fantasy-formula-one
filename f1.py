@@ -225,7 +225,7 @@ class Race():
         fantasy_points['Team_Pts'].fillna(0, inplace=True)
         fantasy_points['Movement_Pts'] = fantasy_points['Eff_Grid'][fantasy_points['Eff_Grid'].isin(range(23))] -         fantasy_points['Finish'][fantasy_points['Finish'].isin(range(23))]
         fantasy_points['Movement_Pts'].fillna(0, inplace=True)
-        fantasy_points['Movement_Pts'] = [min(max(0, x), 0) for x in fantasy_points['Movement_Pts']]
+        fantasy_points['Movement_Pts'] = [min(max(0, x), 10) for x in fantasy_points['Movement_Pts']]
         #fantasy_points['Movement_Pts'][fantasy_points['Movement_Pts'] < 0] = 0
         #fantasy_points['Movement_Pts'][fantasy_points['Movement_Pts'] > 10] = 10
         fantasy_points.ix[self.fastest_lap, 'Fst_Lap'] = 2
@@ -238,7 +238,7 @@ class Race():
             else:
                 fantasy_points.ix[driver, 'Completion'] = 0
         fantasy_points['Total_Race_Pts'] = fantasy_points['Qual_Pts'] + fantasy_points['Fin_Pts'] + fantasy_points['Team_Pts'] + fantasy_points['Movement_Pts'] + fantasy_points['Completion'] + fantasy_points['Fst_Lap']
-        #fantasy_points.to_csv('races/' + self.name + '.csv')
+        fantasy_points.to_csv('races/' + self.name + '.csv')
         for driver in self.drivers:
             self.fantasy_points[driver] = fantasy_points.ix[driver, 'Total_Race_Pts']
         return fantasy_points

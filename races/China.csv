@@ -1,23 +1,23 @@
 ,Team,Qualifying,Grid,Eff_Grid,Finish,Qual_Pts,Fin_Pts,Team_Pts,Movement_Pts,Completion,Fst_Lap,Total_Race_Pts
-Kimi Räikkönen,Ferrari,3,3,3,3,2,8,1,0,0,0,11
-Sebastian Vettel,Ferrari,4,4,4,4,2,7,0,0,0,0,9
-Sergio Pérez,Force India-Mercedes,7,7,7,7,2,4,1,0,0,0,7
-Nico Hülkenberg,Force India-Mercedes,10,13,13,13,2,0,0,0,0,0,2
-Romain Grosjean,Haas-Ferrari,14,14,14,14,1,0,1,0,0,0,2
-Esteban Gutiérrez,Haas-Ferrari,18,18,18,18,0,0,0,0,0,0,0
-Rio Haryanto,MRT-Mercedes,20,20,20,20,0,0,1,0,0,0,1
-Pascal Wehrlein,MRT-Mercedes,21,21,21,21,0,0,0,0,0,0,0
-Fernando Alonso,McLaren-Honda,12,11,11,11,1,0,1,0,0,0,2
-Jenson Button,McLaren-Honda,13,12,12,12,1,0,0,0,0,0,1
-Nico Rosberg,Mercedes,1,1,1,2,3,9,1,0,0,0,13
-Lewis Hamilton,Mercedes,22,22,22,22,0,0,0,0,0,0,0
-Daniel Ricciardo,Red Bull Racing-TAG Heuer,2,2,2,1,2,10,1,1,0,2,16
-Daniil Kvyat,Red Bull Racing-TAG Heuer,6,6,6,6,2,5,0,0,0,0,7
-Kevin Magnussen,Renault,17,17,17,17,0,0,1,0,0,0,1
-Jolyon Palmer,Renault,19,19,19,19,0,0,0,0,0,0,0
-Marcus Ericsson,Sauber-Ferrari,15,15,15,15,1,0,1,0,0,0,2
-Felipe Nasr,Sauber-Ferrari,16,16,16,16,1,0,0,0,0,0,1
-Carlos Sainz Jr.,Toro Rosso-Ferrari,8,8,8,8,2,3,1,0,0,0,6
-Max Verstappen,Toro Rosso-Ferrari,9,9,9,9,2,2,0,0,0,0,4
-Valtteri Bottas,Williams-Mercedes,5,5,5,5,2,6,1,0,0,0,9
-Felipe Massa,Williams-Mercedes,11,10,10,10,1,1,0,0,0,0,2
+Sebastian Vettel,Ferrari,4,4,4,2,2,9,1,2,3,0,17
+Kimi Räikkönen,Ferrari,3,3,3,5,2,6,0,0,3,0,11
+Sergio Pérez,Force India-Mercedes,7,7,7,11,2,0,1,0,3,0,6
+Nico Hülkenberg,Force India-Mercedes,10,13,13,15,2,0,0,0,3,2,7
+Esteban Gutiérrez,Haas-Ferrari,18,18,18,14,0,0,1,4,3,0,8
+Romain Grosjean,Haas-Ferrari,14,14,14,19,1,0,0,0,3,0,4
+Pascal Wehrlein,MRT-Mercedes,21,21,21,18,0,0,1,3,3,0,7
+Rio Haryanto,MRT-Mercedes,20,20,20,21,0,0,0,0,3,0,3
+Fernando Alonso,McLaren-Honda,12,11,11,12,1,0,1,0,3,0,5
+Jenson Button,McLaren-Honda,13,12,12,13,1,0,0,0,3,0,4
+Nico Rosberg,Mercedes,1,1,1,1,3,10,1,0,3,0,17
+Lewis Hamilton,Mercedes,22,22,22,7,0,4,0,10,3,0,17
+Daniil Kvyat,Red Bull Racing-TAG Heuer,6,6,6,3,2,8,1,3,3,0,17
+Daniel Ricciardo,Red Bull Racing-TAG Heuer,2,2,2,4,2,7,0,0,3,0,12
+Kevin Magnussen,Renault,17,17,17,17,0,0,1,0,3,0,4
+Jolyon Palmer,Renault,19,19,19,22,0,0,0,0,3,0,3
+Marcus Ericsson,Sauber-Ferrari,15,15,15,16,1,0,1,0,3,0,5
+Felipe Nasr,Sauber-Ferrari,16,16,16,20,1,0,0,0,3,0,4
+Max Verstappen,Toro Rosso-Ferrari,9,9,9,8,2,3,1,1,3,0,10
+Carlos Sainz Jr.,Toro Rosso-Ferrari,8,8,8,9,2,2,0,0,3,0,7
+Felipe Massa,Williams-Mercedes,11,10,10,6,1,5,1,4,3,0,14
+Valtteri Bottas,Williams-Mercedes,5,5,5,10,2,1,0,0,3,0,6

@@ -1,0 +1,26 @@
+Pos.,No.,Driver,Constructor,Laps,Time/Retired,Grid,Pts.
+1,33,Max Verstappen,Red Bull Racing-TAG Heuer,66,1:41:40.017,4,25
+2,7,Kimi Räikkönen,Ferrari,66,+0.616,5,18
+3,5,Sebastian Vettel,Ferrari,66,+5.581,6,15
+4,3,Daniel Ricciardo,Red Bull Racing-TAG Heuer,66,+43.950,3,12
+5,77,Valtteri Bottas,Williams-Mercedes,66,+45.271,7,10
+6,55,Carlos Sainz Jr.,Toro Rosso-Ferrari,66,+1:01.395,8,8
+7,11,Sergio Pérez,Force India-Mercedes,66,+1:19.538,9,6
+8,19,Felipe Massa,Williams-Mercedes,66,+1:20.707,18,4
+9,22,Jenson Button,McLaren-Honda,65,+1 Lap,12,2
+10,26,Daniil Kvyat,Toro Rosso-Ferrari,65,+1 Lap,13,1
+11,21,Esteban Gutiérrez,Haas-Ferrari,65,+1 Lap,16,
+12,9,Marcus Ericsson,Sauber-Ferrari,65,+1 Lap,19,
+13,30,Jolyon Palmer,Renault,65,+1 Lap,17,
+14,12,Felipe Nasr,Sauber-Ferrari,65,+1 Lap,20,
+15,20,Kevin Magnussen,Renault,65,+1 Lap,15,
+16,94,Pascal Wehrlein,MRT-Mercedes,65,+1 Lap,21,
+17,88,Rio Haryanto,MRT-Mercedes,65,+1 Lap,22,
+Ret,8,Romain Grosjean,Haas-Ferrari,56,Brakes,14,
+Ret,14,Fernando Alonso,McLaren-Honda,45,Engine,10,
+Ret,27,Nico Hülkenberg,Force India-Mercedes,20,Oil leak,11,
+Ret,44,Lewis Hamilton,Mercedes,0,Collision,1,
+Ret,6,Nico Rosberg,Mercedes,0,Collision,2,
+Source:
+Total Laps,66
+Fastest Lap,Daniil Kvyat
