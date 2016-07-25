@@ -252,8 +252,8 @@ class Race():
         return print_string
     
     def update_grid(self, driver, position):
-        if driver in DRIVERS:
-            driver = DRIVERS[driver]
+        if driver not in self.drivers:
+            driver = conv_DRIVERS[driver]
         if driver in self.drivers:
             self.grid_position[driver] = position
             if list(self.grid_position.values()).count(position) > 1:
@@ -504,7 +504,9 @@ if __name__ == '__main__':
         answer = input('Would you like to update any of the grid results? [y/n] ').lower()
         while answer == 'y':
             update_grid = input('Enter your driver and grid position: \ndriver   position\n')
-            ThisRace.update_grid(update_grid.split()[0], update_grid.split()[1])
+            print(update_grid.split()[0], update_grid.split()[1], update_grid.split()[2])
+            print(str(update_grid.split()[0]) + " " + str(update_grid.split()[1]))
+            ThisRace.update_grid(str(update_grid.split()[0]) + " " + str(update_grid.split()[1]), update_grid.split()[2])
             #ThisRace.print_grid()
             answer = input('Additional updates? [y/n] ').lower()
         answer = input('Would you like to view the race results? [y/n] ').lower()
