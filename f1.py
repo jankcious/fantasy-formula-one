@@ -137,6 +137,7 @@ class Race():
         self.qualifying_position = {}
         self.constructor_finish = {}
         self.laps_completed = {}
+        self.classified = {}
         self.drivers_team = {}
         self.fantasy_points = {}
         self.q_round = {}
@@ -147,7 +148,10 @@ class Race():
             else:
                 self.drivers_points[line[2]] = int(line[7].strip())
             if line[0].isdigit():
-                self.drivers_position[line[2]] = int(line[0])
+                if line[5][0].isdigit() or line[5][1].isdigit():
+                    self.drivers_position[line[2]] = int(line[0])
+                else:
+                    self.drivers_position[line[2]] = "Ret"
             else:
                 self.drivers_position[line[2]] = line[0]
             if line[6].isdigit():
@@ -164,6 +168,10 @@ class Race():
                 self.constructor_finish[line[3]] = [0]
             self.drivers_team[line[2]] = line[3]
             self.laps_completed[line[2]] = line[4]
+            if line[0].isdigit():
+                self.classified[line[2]] = True
+            else:
+                self.classified[line[2]] = False
         for line in qualifying_results:
             if line[2] in self.drivers:
                 try:
@@ -179,7 +187,7 @@ class Race():
                 else:
                     self.q_round[line[2]] = 0
                                 
-    def score(self):
+    def score(self, watch=False):
         ###Instead we're building a dataframe
         fantasy_points = pd.DataFrame(columns=['Team', 'Qualifying', 'Grid', 'Eff_Grid', 'Finish',
                                                'Qual_Pts', 'Fin_Pts', 'Team_Pts', 'Movement_Pts', 
@@ -230,13 +238,22 @@ class Race():
         #fantasy_points['Movement_Pts'][fantasy_points['Movement_Pts'] > 10] = 10
         fantasy_points.ix[self.fastest_lap, 'Fst_Lap'] = 2
         fantasy_points['Fst_Lap'].fillna(0, inplace=True)
-        for driver, laps in self.laps_completed.items():
-            if int(laps) / self.lap_length >= .9:
-                fantasy_points.ix[driver, 'Completion'] = 3
-            elif int(laps) / self.lap_length >= .5:
-                fantasy_points.ix[driver, 'Completion'] = 1
-            else:
-                fantasy_points.ix[driver, 'Completion'] = 0
+        if watch:
+            for driver, laps in self.laps_completed.items():
+                if int(laps) / self.lap_length >= .9:
+                    fantasy_points.ix[driver, 'Completion'] = 3
+                elif int(laps) / self.lap_length >= .5:
+                    fantasy_points.ix[driver, 'Completion'] = 1
+                else:
+                    fantasy_points.ix[driver, 'Completion'] = 0
+        else:
+            for driver, laps in self.laps_completed.items():
+                if self.classified[driver]:
+                    fantasy_points.ix[driver, 'Completion'] = 3
+                elif int(laps) / self.lap_length >= .5:
+                    fantasy_points.ix[driver, 'Completion'] = 1
+                else:
+                    fantasy_points.ix[driver, 'Completion'] = 0
         fantasy_points['Total_Race_Pts'] = fantasy_points['Qual_Pts'] + fantasy_points['Fin_Pts'] + fantasy_points['Team_Pts'] + fantasy_points['Movement_Pts'] + fantasy_points['Completion'] + fantasy_points['Fst_Lap']
         fantasy_points.to_csv('races/' + self.name + '.csv')
         for driver in self.drivers:

@@ -1,0 +1,1592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="http://ergast.com/schemas/mrd-1.4.xsl"?>
+<MRData xmlns="http://ergast.com/mrd/1.4" series="f1" url="http://ergast.com/api/f1/2016/12/laps" limit="1000" offset="0" total="1416">
+	<RaceTable season="2016" round="12">
+		<Race season="2016" round="12" url="https://en.wikipedia.org/wiki/2016_German_Grand_Prix">
+			<RaceName>German Grand Prix</RaceName>
+			<Circuit circuitId="hockenheimring" url="http://en.wikipedia.org/wiki/Hockenheimring">
+				<CircuitName>Hockenheimring</CircuitName>
+				<Location lat="49.3278" long="8.56583">
+					<Locality>Hockenheim</Locality>
+					<Country>Germany</Country>
+				</Location>
+			</Circuit>
+			<Date>2016-07-31</Date>
+			<Time>12:00:00Z</Time>
+			<LapsList>
+				<Lap number="1">
+					<Timing driverId="hamilton" lap="1" position="1" time="1:24.418"/>
+					<Timing driverId="max_verstappen" lap="1" position="2" time="1:25.752"/>
+					<Timing driverId="ricciardo" lap="1" position="3" time="1:27.031"/>
+					<Timing driverId="rosberg" lap="1" position="4" time="1:27.655"/>
+					<Timing driverId="vettel" lap="1" position="5" time="1:28.429"/>
+					<Timing driverId="raikkonen" lap="1" position="6" time="1:29.118"/>
+					<Timing driverId="bottas" lap="1" position="7" time="1:29.735"/>
+					<Timing driverId="hulkenberg" lap="1" position="8" time="1:30.129"/>
+					<Timing driverId="button" lap="1" position="9" time="1:30.628"/>
+					<Timing driverId="massa" lap="1" position="10" time="1:31.170"/>
+					<Timing driverId="alonso" lap="1" position="11" time="1:31.418"/>
+					<Timing driverId="kevin_magnussen" lap="1" position="12" time="1:31.960"/>
+					<Timing driverId="sainz" lap="1" position="13" time="1:32.496"/>
+					<Timing driverId="jolyon_palmer" lap="1" position="14" time="1:33.179"/>
+					<Timing driverId="kvyat" lap="1" position="15" time="1:33.633"/>
+					<Timing driverId="perez" lap="1" position="16" time="1:34.261"/>
+					<Timing driverId="nasr" lap="1" position="17" time="1:34.643"/>
+					<Timing driverId="gutierrez" lap="1" position="18" time="1:35.102"/>
+					<Timing driverId="wehrlein" lap="1" position="19" time="1:35.300"/>
+					<Timing driverId="grosjean" lap="1" position="20" time="1:35.568"/>
+					<Timing driverId="ericsson" lap="1" position="21" time="1:35.917"/>
+					<Timing driverId="haryanto" lap="1" position="22" time="1:36.393"/>
+				</Lap>
+				<Lap number="2">
+					<Timing driverId="hamilton" lap="2" position="1" time="1:20.721"/>
+					<Timing driverId="max_verstappen" lap="2" position="2" time="1:20.928"/>
+					<Timing driverId="ricciardo" lap="2" position="3" time="1:21.599"/>
+					<Timing driverId="rosberg" lap="2" position="4" time="1:21.842"/>
+					<Timing driverId="vettel" lap="2" position="5" time="1:21.961"/>
+					<Timing driverId="raikkonen" lap="2" position="6" time="1:22.082"/>
+					<Timing driverId="bottas" lap="2" position="7" time="1:22.552"/>
+					<Timing driverId="hulkenberg" lap="2" position="8" time="1:22.902"/>
+					<Timing driverId="button" lap="2" position="9" time="1:23.073"/>
+					<Timing driverId="massa" lap="2" position="10" time="1:23.358"/>
+					<Timing driverId="alonso" lap="2" position="11" time="1:23.824"/>
+					<Timing driverId="sainz" lap="2" position="12" time="1:23.298"/>
+					<Timing driverId="kevin_magnussen" lap="2" position="13" time="1:24.555"/>
+					<Timing driverId="kvyat" lap="2" position="14" time="1:24.519"/>
+					<Timing driverId="perez" lap="2" position="15" time="1:24.795"/>
+					<Timing driverId="nasr" lap="2" position="16" time="1:24.799"/>
+					<Timing driverId="grosjean" lap="2" position="17" time="1:24.686"/>
+					<Timing driverId="gutierrez" lap="2" position="18" time="1:25.636"/>
+					<Timing driverId="wehrlein" lap="2" position="19" time="1:25.717"/>
+					<Timing driverId="haryanto" lap="2" position="20" time="1:25.079"/>
+					<Timing driverId="ericsson" lap="2" position="21" time="1:25.794"/>
+					<Timing driverId="jolyon_palmer" lap="2" position="22" time="1:30.201"/>
+				</Lap>
+				<Lap number="3">
+					<Timing driverId="hamilton" lap="3" position="1" time="1:21.080"/>
+					<Timing driverId="max_verstappen" lap="3" position="2" time="1:21.412"/>
+					<Timing driverId="ricciardo" lap="3" position="3" time="1:21.346"/>
+					<Timing driverId="rosberg" lap="3" position="4" time="1:21.791"/>
+					<Timing driverId="vettel" lap="3" position="5" time="1:21.754"/>
+					<Timing driverId="raikkonen" lap="3" position="6" time="1:21.728"/>
+					<Timing driverId="bottas" lap="3" position="7" time="1:22.089"/>
+					<Timing driverId="hulkenberg" lap="3" position="8" time="1:22.154"/>
+					<Timing driverId="button" lap="3" position="9" time="1:22.419"/>
+					<Timing driverId="massa" lap="3" position="10" time="1:22.484"/>
+					<Timing driverId="alonso" lap="3" position="11" time="1:22.569"/>
+					<Timing driverId="sainz" lap="3" position="12" time="1:22.712"/>
+					<Timing driverId="kevin_magnussen" lap="3" position="13" time="1:23.237"/>
+					<Timing driverId="kvyat" lap="3" position="14" time="1:22.835"/>
+					<Timing driverId="perez" lap="3" position="15" time="1:22.727"/>
+					<Timing driverId="nasr" lap="3" position="16" time="1:23.188"/>
+					<Timing driverId="grosjean" lap="3" position="17" time="1:22.853"/>
+					<Timing driverId="gutierrez" lap="3" position="18" time="1:23.067"/>
+					<Timing driverId="wehrlein" lap="3" position="19" time="1:23.567"/>
+					<Timing driverId="haryanto" lap="3" position="20" time="1:23.587"/>
+					<Timing driverId="ericsson" lap="3" position="21" time="1:23.732"/>
+					<Timing driverId="jolyon_palmer" lap="3" position="22" time="1:36.840"/>
+				</Lap>
+				<Lap number="4">
+					<Timing driverId="hamilton" lap="4" position="1" time="1:21.212"/>
+					<Timing driverId="max_verstappen" lap="4" position="2" time="1:21.354"/>
+					<Timing driverId="ricciardo" lap="4" position="3" time="1:21.370"/>
+					<Timing driverId="rosberg" lap="4" position="4" time="1:21.603"/>
+					<Timing driverId="vettel" lap="4" position="5" time="1:21.757"/>
+					<Timing driverId="raikkonen" lap="4" position="6" time="1:21.736"/>
+					<Timing driverId="bottas" lap="4" position="7" time="1:22.041"/>
+					<Timing driverId="hulkenberg" lap="4" position="8" time="1:22.189"/>
+					<Timing driverId="button" lap="4" position="9" time="1:22.207"/>
+					<Timing driverId="massa" lap="4" position="10" time="1:22.533"/>
+					<Timing driverId="alonso" lap="4" position="11" time="1:22.553"/>
+					<Timing driverId="sainz" lap="4" position="12" time="1:22.595"/>
+					<Timing driverId="kevin_magnussen" lap="4" position="13" time="1:22.755"/>
+					<Timing driverId="kvyat" lap="4" position="14" time="1:22.792"/>
+					<Timing driverId="perez" lap="4" position="15" time="1:22.896"/>
+					<Timing driverId="grosjean" lap="4" position="16" time="1:22.730"/>
+					<Timing driverId="nasr" lap="4" position="17" time="1:23.971"/>
+					<Timing driverId="gutierrez" lap="4" position="18" time="1:23.570"/>
+					<Timing driverId="wehrlein" lap="4" position="19" time="1:23.388"/>
+					<Timing driverId="haryanto" lap="4" position="20" time="1:23.509"/>
+					<Timing driverId="ericsson" lap="4" position="21" time="1:23.511"/>
+					<Timing driverId="jolyon_palmer" lap="4" position="22" time="1:22.614"/>
+				</Lap>
+				<Lap number="5">
+					<Timing driverId="hamilton" lap="5" position="1" time="1:21.191"/>
+					<Timing driverId="max_verstappen" lap="5" position="2" time="1:21.307"/>
+					<Timing driverId="ricciardo" lap="5" position="3" time="1:21.173"/>
+					<Timing driverId="rosberg" lap="5" position="4" time="1:21.436"/>
+					<Timing driverId="vettel" lap="5" position="5" time="1:21.625"/>
+					<Timing driverId="raikkonen" lap="5" position="6" time="1:21.620"/>
+					<Timing driverId="bottas" lap="5" position="7" time="1:21.878"/>
+					<Timing driverId="hulkenberg" lap="5" position="8" time="1:21.999"/>
+					<Timing driverId="button" lap="5" position="9" time="1:22.256"/>
+					<Timing driverId="massa" lap="5" position="10" time="1:22.669"/>
+					<Timing driverId="alonso" lap="5" position="11" time="1:22.532"/>
+					<Timing driverId="sainz" lap="5" position="12" time="1:22.517"/>
+					<Timing driverId="kevin_magnussen" lap="5" position="13" time="1:22.688"/>
+					<Timing driverId="kvyat" lap="5" position="14" time="1:22.796"/>
+					<Timing driverId="perez" lap="5" position="15" time="1:22.648"/>
+					<Timing driverId="grosjean" lap="5" position="16" time="1:22.550"/>
+					<Timing driverId="nasr" lap="5" position="17" time="1:22.810"/>
+					<Timing driverId="gutierrez" lap="5" position="18" time="1:23.174"/>
+					<Timing driverId="wehrlein" lap="5" position="19" time="1:23.597"/>
+					<Timing driverId="ericsson" lap="5" position="20" time="1:23.269"/>
+					<Timing driverId="haryanto" lap="5" position="21" time="1:24.563"/>
+					<Timing driverId="jolyon_palmer" lap="5" position="22" time="1:22.953"/>
+				</Lap>
+				<Lap number="6">
+					<Timing driverId="hamilton" lap="6" position="1" time="1:21.197"/>
+					<Timing driverId="max_verstappen" lap="6" position="2" time="1:21.232"/>
+					<Timing driverId="ricciardo" lap="6" position="3" time="1:21.111"/>
+					<Timing driverId="rosberg" lap="6" position="4" time="1:20.714"/>
+					<Timing driverId="vettel" lap="6" position="5" time="1:21.360"/>
+					<Timing driverId="raikkonen" lap="6" position="6" time="1:21.653"/>
+					<Timing driverId="bottas" lap="6" position="7" time="1:22.056"/>
+					<Timing driverId="hulkenberg" lap="6" position="8" time="1:22.285"/>
+					<Timing driverId="button" lap="6" position="9" time="1:22.320"/>
+					<Timing driverId="alonso" lap="6" position="10" time="1:22.344"/>
+					<Timing driverId="massa" lap="6" position="11" time="1:24.011"/>
+					<Timing driverId="sainz" lap="6" position="12" time="1:23.158"/>
+					<Timing driverId="kevin_magnussen" lap="6" position="13" time="1:22.856"/>
+					<Timing driverId="perez" lap="6" position="14" time="1:23.765"/>
+					<Timing driverId="grosjean" lap="6" position="15" time="1:23.455"/>
+					<Timing driverId="kvyat" lap="6" position="16" time="1:25.836"/>
+					<Timing driverId="nasr" lap="6" position="17" time="1:23.587"/>
+					<Timing driverId="gutierrez" lap="6" position="18" time="1:23.036"/>
+					<Timing driverId="wehrlein" lap="6" position="19" time="1:23.114"/>
+					<Timing driverId="ericsson" lap="6" position="20" time="1:23.265"/>
+					<Timing driverId="haryanto" lap="6" position="21" time="1:23.510"/>
+					<Timing driverId="jolyon_palmer" lap="6" position="22" time="1:23.022"/>
+				</Lap>
+				<Lap number="7">
+					<Timing driverId="hamilton" lap="7" position="1" time="1:20.733"/>
+					<Timing driverId="max_verstappen" lap="7" position="2" time="1:21.282"/>
+					<Timing driverId="ricciardo" lap="7" position="3" time="1:21.334"/>
+					<Timing driverId="rosberg" lap="7" position="4" time="1:21.026"/>
+					<Timing driverId="vettel" lap="7" position="5" time="1:21.218"/>
+					<Timing driverId="raikkonen" lap="7" position="6" time="1:21.416"/>
+					<Timing driverId="bottas" lap="7" position="7" time="1:22.016"/>
+					<Timing driverId="hulkenberg" lap="7" position="8" time="1:22.227"/>
+					<Timing driverId="button" lap="7" position="9" time="1:22.338"/>
+					<Timing driverId="alonso" lap="7" position="10" time="1:22.426"/>
+					<Timing driverId="massa" lap="7" position="11" time="1:23.249"/>
+					<Timing driverId="sainz" lap="7" position="12" time="1:23.161"/>
+					<Timing driverId="kevin_magnussen" lap="7" position="13" time="1:22.973"/>
+					<Timing driverId="perez" lap="7" position="14" time="1:22.560"/>
+					<Timing driverId="grosjean" lap="7" position="15" time="1:22.755"/>
+					<Timing driverId="gutierrez" lap="7" position="16" time="1:24.025"/>
+					<Timing driverId="wehrlein" lap="7" position="17" time="1:23.809"/>
+					<Timing driverId="ericsson" lap="7" position="18" time="1:23.540"/>
+					<Timing driverId="kvyat" lap="7" position="19" time="1:26.627"/>
+					<Timing driverId="haryanto" lap="7" position="20" time="1:23.485"/>
+					<Timing driverId="nasr" lap="7" position="21" time="1:27.263"/>
+					<Timing driverId="jolyon_palmer" lap="7" position="22" time="1:23.265"/>
+				</Lap>
+				<Lap number="8">
+					<Timing driverId="hamilton" lap="8" position="1" time="1:20.777"/>
+					<Timing driverId="max_verstappen" lap="8" position="2" time="1:21.299"/>
+					<Timing driverId="ricciardo" lap="8" position="3" time="1:21.154"/>
+					<Timing driverId="rosberg" lap="8" position="4" time="1:21.232"/>
+					<Timing driverId="vettel" lap="8" position="5" time="1:21.403"/>
+					<Timing driverId="raikkonen" lap="8" position="6" time="1:21.510"/>
+					<Timing driverId="bottas" lap="8" position="7" time="1:21.973"/>
+					<Timing driverId="hulkenberg" lap="8" position="8" time="1:22.241"/>
+					<Timing driverId="button" lap="8" position="9" time="1:22.520"/>
+					<Timing driverId="alonso" lap="8" position="10" time="1:22.132"/>
+					<Timing driverId="massa" lap="8" position="11" time="1:23.311"/>
+					<Timing driverId="sainz" lap="8" position="12" time="1:23.460"/>
+					<Timing driverId="kevin_magnussen" lap="8" position="13" time="1:23.177"/>
+					<Timing driverId="grosjean" lap="8" position="14" time="1:22.424"/>
+					<Timing driverId="perez" lap="8" position="15" time="1:25.292"/>
+					<Timing driverId="gutierrez" lap="8" position="16" time="1:22.526"/>
+					<Timing driverId="wehrlein" lap="8" position="17" time="1:23.038"/>
+					<Timing driverId="ericsson" lap="8" position="18" time="1:23.214"/>
+					<Timing driverId="haryanto" lap="8" position="19" time="1:23.740"/>
+					<Timing driverId="jolyon_palmer" lap="8" position="20" time="1:23.386"/>
+					<Timing driverId="kvyat" lap="8" position="21" time="1:40.864"/>
+					<Timing driverId="nasr" lap="8" position="22" time="1:46.873"/>
+				</Lap>
+				<Lap number="9">
+					<Timing driverId="hamilton" lap="9" position="1" time="1:20.518"/>
+					<Timing driverId="max_verstappen" lap="9" position="2" time="1:21.086"/>
+					<Timing driverId="ricciardo" lap="9" position="3" time="1:21.205"/>
+					<Timing driverId="rosberg" lap="9" position="4" time="1:21.174"/>
+					<Timing driverId="vettel" lap="9" position="5" time="1:21.404"/>
+					<Timing driverId="raikkonen" lap="9" position="6" time="1:21.525"/>
+					<Timing driverId="bottas" lap="9" position="7" time="1:22.086"/>
+					<Timing driverId="hulkenberg" lap="9" position="8" time="1:22.348"/>
+					<Timing driverId="button" lap="9" position="9" time="1:22.475"/>
+					<Timing driverId="alonso" lap="9" position="10" time="1:22.390"/>
+					<Timing driverId="kevin_magnussen" lap="9" position="11" time="1:23.579"/>
+					<Timing driverId="grosjean" lap="9" position="12" time="1:22.653"/>
+					<Timing driverId="sainz" lap="9" position="13" time="1:26.565"/>
+					<Timing driverId="massa" lap="9" position="14" time="1:28.605"/>
+					<Timing driverId="gutierrez" lap="9" position="15" time="1:22.541"/>
+					<Timing driverId="wehrlein" lap="9" position="16" time="1:23.145"/>
+					<Timing driverId="ericsson" lap="9" position="17" time="1:26.293"/>
+					<Timing driverId="haryanto" lap="9" position="18" time="1:25.691"/>
+					<Timing driverId="perez" lap="9" position="19" time="1:35.502"/>
+					<Timing driverId="jolyon_palmer" lap="9" position="20" time="1:23.744"/>
+					<Timing driverId="kvyat" lap="9" position="21" time="1:21.892"/>
+					<Timing driverId="nasr" lap="9" position="22" time="1:21.751"/>
+				</Lap>
+				<Lap number="10">
+					<Timing driverId="hamilton" lap="10" position="1" time="1:20.566"/>
+					<Timing driverId="max_verstappen" lap="10" position="2" time="1:21.620"/>
+					<Timing driverId="ricciardo" lap="10" position="3" time="1:21.509"/>
+					<Timing driverId="rosberg" lap="10" position="4" time="1:21.844"/>
+					<Timing driverId="vettel" lap="10" position="5" time="1:21.608"/>
+					<Timing driverId="raikkonen" lap="10" position="6" time="1:21.644"/>
+					<Timing driverId="bottas" lap="10" position="7" time="1:22.338"/>
+					<Timing driverId="hulkenberg" lap="10" position="8" time="1:22.394"/>
+					<Timing driverId="button" lap="10" position="9" time="1:22.721"/>
+					<Timing driverId="alonso" lap="10" position="10" time="1:22.367"/>
+					<Timing driverId="kevin_magnussen" lap="10" position="11" time="1:22.751"/>
+					<Timing driverId="grosjean" lap="10" position="12" time="1:22.454"/>
+					<Timing driverId="gutierrez" lap="10" position="13" time="1:22.614"/>
+					<Timing driverId="wehrlein" lap="10" position="14" time="1:23.124"/>
+					<Timing driverId="ericsson" lap="10" position="15" time="1:23.166"/>
+					<Timing driverId="haryanto" lap="10" position="16" time="1:23.847"/>
+					<Timing driverId="perez" lap="10" position="17" time="1:21.443"/>
+					<Timing driverId="massa" lap="10" position="18" time="1:35.671"/>
+					<Timing driverId="sainz" lap="10" position="19" time="1:39.481"/>
+					<Timing driverId="jolyon_palmer" lap="10" position="20" time="1:24.061"/>
+					<Timing driverId="kvyat" lap="10" position="21" time="1:22.625"/>
+					<Timing driverId="nasr" lap="10" position="22" time="1:22.244"/>
+				</Lap>
+				<Lap number="11">
+					<Timing driverId="hamilton" lap="11" position="1" time="1:20.767"/>
+					<Timing driverId="ricciardo" lap="11" position="2" time="1:21.571"/>
+					<Timing driverId="max_verstappen" lap="11" position="3" time="1:24.647"/>
+					<Timing driverId="vettel" lap="11" position="4" time="1:21.754"/>
+					<Timing driverId="rosberg" lap="11" position="5" time="1:24.753"/>
+					<Timing driverId="raikkonen" lap="11" position="6" time="1:21.819"/>
+					<Timing driverId="bottas" lap="11" position="7" time="1:22.587"/>
+					<Timing driverId="hulkenberg" lap="11" position="8" time="1:22.449"/>
+					<Timing driverId="button" lap="11" position="9" time="1:22.823"/>
+					<Timing driverId="alonso" lap="11" position="10" time="1:22.725"/>
+					<Timing driverId="grosjean" lap="11" position="11" time="1:22.404"/>
+					<Timing driverId="kevin_magnussen" lap="11" position="12" time="1:25.709"/>
+					<Timing driverId="gutierrez" lap="11" position="13" time="1:22.870"/>
+					<Timing driverId="wehrlein" lap="11" position="14" time="1:23.521"/>
+					<Timing driverId="ericsson" lap="11" position="15" time="1:23.456"/>
+					<Timing driverId="haryanto" lap="11" position="16" time="1:23.627"/>
+					<Timing driverId="perez" lap="11" position="17" time="1:21.946"/>
+					<Timing driverId="massa" lap="11" position="18" time="1:21.980"/>
+					<Timing driverId="sainz" lap="11" position="19" time="1:21.688"/>
+					<Timing driverId="kvyat" lap="11" position="20" time="1:22.801"/>
+					<Timing driverId="jolyon_palmer" lap="11" position="21" time="1:25.560"/>
+					<Timing driverId="nasr" lap="11" position="22" time="1:22.383"/>
+				</Lap>
+				<Lap number="12">
+					<Timing driverId="hamilton" lap="12" position="1" time="1:20.465"/>
+					<Timing driverId="ricciardo" lap="12" position="2" time="1:24.172"/>
+					<Timing driverId="vettel" lap="12" position="3" time="1:21.573"/>
+					<Timing driverId="raikkonen" lap="12" position="4" time="1:21.869"/>
+					<Timing driverId="bottas" lap="12" position="5" time="1:25.379"/>
+					<Timing driverId="max_verstappen" lap="12" position="6" time="1:35.116"/>
+					<Timing driverId="hulkenberg" lap="12" position="7" time="1:25.551"/>
+					<Timing driverId="button" lap="12" position="8" time="1:23.316"/>
+					<Timing driverId="alonso" lap="12" position="9" time="1:22.867"/>
+					<Timing driverId="rosberg" lap="12" position="10" time="1:35.339"/>
+					<Timing driverId="grosjean" lap="12" position="11" time="1:22.240"/>
+					<Timing driverId="gutierrez" lap="12" position="12" time="1:22.933"/>
+					<Timing driverId="wehrlein" lap="12" position="13" time="1:26.792"/>
+					<Timing driverId="ericsson" lap="12" position="14" time="1:23.391"/>
+					<Timing driverId="perez" lap="12" position="15" time="1:21.839"/>
+					<Timing driverId="haryanto" lap="12" position="16" time="1:24.463"/>
+					<Timing driverId="massa" lap="12" position="17" time="1:22.793"/>
+					<Timing driverId="kevin_magnussen" lap="12" position="18" time="1:35.990"/>
+					<Timing driverId="sainz" lap="12" position="19" time="1:22.003"/>
+					<Timing driverId="kvyat" lap="12" position="20" time="1:22.745"/>
+					<Timing driverId="jolyon_palmer" lap="12" position="21" time="1:24.003"/>
+					<Timing driverId="nasr" lap="12" position="22" time="1:22.772"/>
+				</Lap>
+				<Lap number="13">
+					<Timing driverId="hamilton" lap="13" position="1" time="1:20.604"/>
+					<Timing driverId="raikkonen" lap="13" position="2" time="1:21.969"/>
+					<Timing driverId="vettel" lap="13" position="3" time="1:24.884"/>
+					<Timing driverId="max_verstappen" lap="13" position="4" time="1:20.627"/>
+					<Timing driverId="ricciardo" lap="13" position="5" time="1:34.435"/>
+					<Timing driverId="rosberg" lap="13" position="6" time="1:21.822"/>
+					<Timing driverId="alonso" lap="13" position="7" time="1:23.649"/>
+					<Timing driverId="button" lap="13" position="8" time="1:26.087"/>
+					<Timing driverId="grosjean" lap="13" position="9" time="1:22.177"/>
+					<Timing driverId="bottas" lap="13" position="10" time="1:34.947"/>
+					<Timing driverId="gutierrez" lap="13" position="11" time="1:22.858"/>
+					<Timing driverId="hulkenberg" lap="13" position="12" time="1:36.037"/>
+					<Timing driverId="ericsson" lap="13" position="13" time="1:23.359"/>
+					<Timing driverId="perez" lap="13" position="14" time="1:22.692"/>
+					<Timing driverId="massa" lap="13" position="15" time="1:22.713"/>
+					<Timing driverId="kevin_magnussen" lap="13" position="16" time="1:22.947"/>
+					<Timing driverId="sainz" lap="13" position="17" time="1:22.811"/>
+					<Timing driverId="haryanto" lap="13" position="18" time="1:30.137"/>
+					<Timing driverId="kvyat" lap="13" position="19" time="1:22.884"/>
+					<Timing driverId="jolyon_palmer" lap="13" position="20" time="1:23.901"/>
+					<Timing driverId="wehrlein" lap="13" position="21" time="1:39.097"/>
+					<Timing driverId="nasr" lap="13" position="22" time="1:23.020"/>
+				</Lap>
+				<Lap number="14">
+					<Timing driverId="hamilton" lap="14" position="1" time="1:23.934"/>
+					<Timing driverId="raikkonen" lap="14" position="2" time="1:24.630"/>
+					<Timing driverId="max_verstappen" lap="14" position="3" time="1:20.420"/>
+					<Timing driverId="ricciardo" lap="14" position="4" time="1:20.432"/>
+					<Timing driverId="rosberg" lap="14" position="5" time="1:20.215"/>
+					<Timing driverId="vettel" lap="14" position="6" time="1:35.763"/>
+					<Timing driverId="alonso" lap="14" position="7" time="1:27.462"/>
+					<Timing driverId="grosjean" lap="14" position="8" time="1:22.430"/>
+					<Timing driverId="bottas" lap="14" position="9" time="1:21.264"/>
+					<Timing driverId="hulkenberg" lap="14" position="10" time="1:21.379"/>
+					<Timing driverId="gutierrez" lap="14" position="11" time="1:23.821"/>
+					<Timing driverId="button" lap="14" position="12" time="1:35.631"/>
+					<Timing driverId="perez" lap="14" position="13" time="1:22.119"/>
+					<Timing driverId="ericsson" lap="14" position="14" time="1:24.441"/>
+					<Timing driverId="massa" lap="14" position="15" time="1:22.729"/>
+					<Timing driverId="kevin_magnussen" lap="14" position="16" time="1:22.597"/>
+					<Timing driverId="sainz" lap="14" position="17" time="1:22.629"/>
+					<Timing driverId="kvyat" lap="14" position="18" time="1:22.638"/>
+					<Timing driverId="wehrlein" lap="14" position="19" time="1:22.527"/>
+					<Timing driverId="jolyon_palmer" lap="14" position="20" time="1:24.443"/>
+					<Timing driverId="nasr" lap="14" position="21" time="1:23.270"/>
+					<Timing driverId="haryanto" lap="14" position="22" time="1:49.124"/>
+				</Lap>
+				<Lap number="15">
+					<Timing driverId="hamilton" lap="15" position="1" time="1:34.646"/>
+					<Timing driverId="max_verstappen" lap="15" position="2" time="1:20.756"/>
+					<Timing driverId="ricciardo" lap="15" position="3" time="1:20.706"/>
+					<Timing driverId="rosberg" lap="15" position="4" time="1:20.364"/>
+					<Timing driverId="vettel" lap="15" position="5" time="1:20.557"/>
+					<Timing driverId="raikkonen" lap="15" position="6" time="1:37.761"/>
+					<Timing driverId="grosjean" lap="15" position="7" time="1:23.073"/>
+					<Timing driverId="bottas" lap="15" position="8" time="1:21.967"/>
+					<Timing driverId="hulkenberg" lap="15" position="9" time="1:21.958"/>
+					<Timing driverId="gutierrez" lap="15" position="10" time="1:22.676"/>
+					<Timing driverId="button" lap="15" position="11" time="1:21.529"/>
+					<Timing driverId="perez" lap="15" position="12" time="1:21.807"/>
+					<Timing driverId="alonso" lap="15" position="13" time="1:36.238"/>
+					<Timing driverId="massa" lap="15" position="14" time="1:22.402"/>
+					<Timing driverId="kevin_magnussen" lap="15" position="15" time="1:22.945"/>
+					<Timing driverId="ericsson" lap="15" position="16" time="1:25.541"/>
+					<Timing driverId="sainz" lap="15" position="17" time="1:23.686"/>
+					<Timing driverId="kvyat" lap="15" position="18" time="1:22.726"/>
+					<Timing driverId="wehrlein" lap="15" position="19" time="1:22.452"/>
+					<Timing driverId="jolyon_palmer" lap="15" position="20" time="1:23.916"/>
+					<Timing driverId="nasr" lap="15" position="21" time="1:23.799"/>
+					<Timing driverId="haryanto" lap="15" position="22" time="1:22.245"/>
+				</Lap>
+				<Lap number="16">
+					<Timing driverId="hamilton" lap="16" position="1" time="1:20.531"/>
+					<Timing driverId="max_verstappen" lap="16" position="2" time="1:20.518"/>
+					<Timing driverId="ricciardo" lap="16" position="3" time="1:20.734"/>
+					<Timing driverId="rosberg" lap="16" position="4" time="1:20.197"/>
+					<Timing driverId="vettel" lap="16" position="5" time="1:20.654"/>
+					<Timing driverId="raikkonen" lap="16" position="6" time="1:20.284"/>
+					<Timing driverId="bottas" lap="16" position="7" time="1:21.806"/>
+					<Timing driverId="grosjean" lap="16" position="8" time="1:23.566"/>
+					<Timing driverId="hulkenberg" lap="16" position="9" time="1:21.818"/>
+					<Timing driverId="gutierrez" lap="16" position="10" time="1:22.851"/>
+					<Timing driverId="button" lap="16" position="11" time="1:21.700"/>
+					<Timing driverId="perez" lap="16" position="12" time="1:21.753"/>
+					<Timing driverId="alonso" lap="16" position="13" time="1:21.476"/>
+					<Timing driverId="massa" lap="16" position="14" time="1:22.463"/>
+					<Timing driverId="kevin_magnussen" lap="16" position="15" time="1:22.407"/>
+					<Timing driverId="sainz" lap="16" position="16" time="1:22.544"/>
+					<Timing driverId="ericsson" lap="16" position="17" time="1:28.088"/>
+					<Timing driverId="kvyat" lap="16" position="18" time="1:22.637"/>
+					<Timing driverId="wehrlein" lap="16" position="19" time="1:22.287"/>
+					<Timing driverId="jolyon_palmer" lap="16" position="20" time="1:24.052"/>
+					<Timing driverId="nasr" lap="16" position="21" time="1:23.764"/>
+					<Timing driverId="haryanto" lap="16" position="22" time="1:21.925"/>
+				</Lap>
+				<Lap number="17">
+					<Timing driverId="hamilton" lap="17" position="1" time="1:20.640"/>
+					<Timing driverId="max_verstappen" lap="17" position="2" time="1:20.699"/>
+					<Timing driverId="ricciardo" lap="17" position="3" time="1:20.775"/>
+					<Timing driverId="rosberg" lap="17" position="4" time="1:20.387"/>
+					<Timing driverId="vettel" lap="17" position="5" time="1:20.385"/>
+					<Timing driverId="raikkonen" lap="17" position="6" time="1:20.554"/>
+					<Timing driverId="bottas" lap="17" position="7" time="1:21.776"/>
+					<Timing driverId="hulkenberg" lap="17" position="8" time="1:22.139"/>
+					<Timing driverId="grosjean" lap="17" position="9" time="1:26.147"/>
+					<Timing driverId="gutierrez" lap="17" position="10" time="1:22.848"/>
+					<Timing driverId="button" lap="17" position="11" time="1:22.766"/>
+					<Timing driverId="perez" lap="17" position="12" time="1:22.117"/>
+					<Timing driverId="alonso" lap="17" position="13" time="1:21.857"/>
+					<Timing driverId="massa" lap="17" position="14" time="1:22.695"/>
+					<Timing driverId="kevin_magnussen" lap="17" position="15" time="1:22.326"/>
+					<Timing driverId="sainz" lap="17" position="16" time="1:22.389"/>
+					<Timing driverId="kvyat" lap="17" position="17" time="1:22.392"/>
+					<Timing driverId="wehrlein" lap="17" position="18" time="1:22.475"/>
+					<Timing driverId="jolyon_palmer" lap="17" position="19" time="1:24.198"/>
+					<Timing driverId="nasr" lap="17" position="20" time="1:24.101"/>
+					<Timing driverId="ericsson" lap="17" position="21" time="1:36.869"/>
+					<Timing driverId="haryanto" lap="17" position="22" time="1:22.261"/>
+				</Lap>
+				<Lap number="18">
+					<Timing driverId="hamilton" lap="18" position="1" time="1:20.367"/>
+					<Timing driverId="max_verstappen" lap="18" position="2" time="1:21.038"/>
+					<Timing driverId="ricciardo" lap="18" position="3" time="1:20.696"/>
+					<Timing driverId="rosberg" lap="18" position="4" time="1:20.604"/>
+					<Timing driverId="vettel" lap="18" position="5" time="1:20.667"/>
+					<Timing driverId="raikkonen" lap="18" position="6" time="1:20.521"/>
+					<Timing driverId="bottas" lap="18" position="7" time="1:21.610"/>
+					<Timing driverId="hulkenberg" lap="18" position="8" time="1:21.977"/>
+					<Timing driverId="button" lap="18" position="9" time="1:21.498"/>
+					<Timing driverId="gutierrez" lap="18" position="10" time="1:23.792"/>
+					<Timing driverId="alonso" lap="18" position="11" time="1:21.809"/>
+					<Timing driverId="perez" lap="18" position="12" time="1:23.871"/>
+					<Timing driverId="massa" lap="18" position="13" time="1:22.655"/>
+					<Timing driverId="kevin_magnussen" lap="18" position="14" time="1:22.601"/>
+					<Timing driverId="sainz" lap="18" position="15" time="1:22.082"/>
+					<Timing driverId="grosjean" lap="18" position="16" time="1:36.769"/>
+					<Timing driverId="kvyat" lap="18" position="17" time="1:22.657"/>
+					<Timing driverId="wehrlein" lap="18" position="18" time="1:22.373"/>
+					<Timing driverId="jolyon_palmer" lap="18" position="19" time="1:23.603"/>
+					<Timing driverId="nasr" lap="18" position="20" time="1:23.773"/>
+					<Timing driverId="ericsson" lap="18" position="21" time="1:21.748"/>
+					<Timing driverId="haryanto" lap="18" position="22" time="1:22.228"/>
+				</Lap>
+				<Lap number="19">
+					<Timing driverId="hamilton" lap="19" position="1" time="1:20.610"/>
+					<Timing driverId="max_verstappen" lap="19" position="2" time="1:20.813"/>
+					<Timing driverId="ricciardo" lap="19" position="3" time="1:20.882"/>
+					<Timing driverId="rosberg" lap="19" position="4" time="1:20.831"/>
+					<Timing driverId="vettel" lap="19" position="5" time="1:20.926"/>
+					<Timing driverId="raikkonen" lap="19" position="6" time="1:20.882"/>
+					<Timing driverId="bottas" lap="19" position="7" time="1:21.593"/>
+					<Timing driverId="hulkenberg" lap="19" position="8" time="1:21.654"/>
+					<Timing driverId="button" lap="19" position="9" time="1:21.858"/>
+					<Timing driverId="gutierrez" lap="19" position="10" time="1:23.129"/>
+					<Timing driverId="alonso" lap="19" position="11" time="1:22.233"/>
+					<Timing driverId="perez" lap="19" position="12" time="1:22.569"/>
+					<Timing driverId="kevin_magnussen" lap="19" position="13" time="1:22.204"/>
+					<Timing driverId="massa" lap="19" position="14" time="1:24.188"/>
+					<Timing driverId="sainz" lap="19" position="15" time="1:23.052"/>
+					<Timing driverId="grosjean" lap="19" position="16" time="1:21.856"/>
+					<Timing driverId="kvyat" lap="19" position="17" time="1:22.577"/>
+					<Timing driverId="wehrlein" lap="19" position="18" time="1:22.590"/>
+					<Timing driverId="jolyon_palmer" lap="19" position="19" time="1:23.753"/>
+					<Timing driverId="ericsson" lap="19" position="20" time="1:23.223"/>
+					<Timing driverId="nasr" lap="19" position="21" time="1:26.928"/>
+					<Timing driverId="haryanto" lap="19" position="22" time="1:22.403"/>
+				</Lap>
+				<Lap number="20">
+					<Timing driverId="hamilton" lap="20" position="1" time="1:20.978"/>
+					<Timing driverId="max_verstappen" lap="20" position="2" time="1:20.927"/>
+					<Timing driverId="ricciardo" lap="20" position="3" time="1:20.906"/>
+					<Timing driverId="rosberg" lap="20" position="4" time="1:21.072"/>
+					<Timing driverId="vettel" lap="20" position="5" time="1:21.053"/>
+					<Timing driverId="raikkonen" lap="20" position="6" time="1:20.970"/>
+					<Timing driverId="bottas" lap="20" position="7" time="1:21.740"/>
+					<Timing driverId="hulkenberg" lap="20" position="8" time="1:21.780"/>
+					<Timing driverId="button" lap="20" position="9" time="1:21.747"/>
+					<Timing driverId="gutierrez" lap="20" position="10" time="1:22.955"/>
+					<Timing driverId="alonso" lap="20" position="11" time="1:22.259"/>
+					<Timing driverId="perez" lap="20" position="12" time="1:22.202"/>
+					<Timing driverId="kevin_magnussen" lap="20" position="13" time="1:22.131"/>
+					<Timing driverId="massa" lap="20" position="14" time="1:23.420"/>
+					<Timing driverId="sainz" lap="20" position="15" time="1:23.414"/>
+					<Timing driverId="grosjean" lap="20" position="16" time="1:23.253"/>
+					<Timing driverId="kvyat" lap="20" position="17" time="1:22.739"/>
+					<Timing driverId="wehrlein" lap="20" position="18" time="1:22.530"/>
+					<Timing driverId="ericsson" lap="20" position="19" time="1:22.540"/>
+					<Timing driverId="jolyon_palmer" lap="20" position="20" time="1:25.009"/>
+					<Timing driverId="haryanto" lap="20" position="21" time="1:22.436"/>
+					<Timing driverId="nasr" lap="20" position="22" time="1:37.272"/>
+				</Lap>
+				<Lap number="21">
+					<Timing driverId="hamilton" lap="21" position="1" time="1:20.935"/>
+					<Timing driverId="max_verstappen" lap="21" position="2" time="1:20.990"/>
+					<Timing driverId="ricciardo" lap="21" position="3" time="1:21.048"/>
+					<Timing driverId="rosberg" lap="21" position="4" time="1:20.769"/>
+					<Timing driverId="vettel" lap="21" position="5" time="1:20.912"/>
+					<Timing driverId="raikkonen" lap="21" position="6" time="1:20.905"/>
+					<Timing driverId="bottas" lap="21" position="7" time="1:21.888"/>
+					<Timing driverId="hulkenberg" lap="21" position="8" time="1:21.620"/>
+					<Timing driverId="button" lap="21" position="9" time="1:22.009"/>
+					<Timing driverId="gutierrez" lap="21" position="10" time="1:22.893"/>
+					<Timing driverId="alonso" lap="21" position="11" time="1:22.379"/>
+					<Timing driverId="perez" lap="21" position="12" time="1:22.409"/>
+					<Timing driverId="kevin_magnussen" lap="21" position="13" time="1:22.171"/>
+					<Timing driverId="sainz" lap="21" position="14" time="1:21.860"/>
+					<Timing driverId="grosjean" lap="21" position="15" time="1:22.214"/>
+					<Timing driverId="massa" lap="21" position="16" time="1:24.434"/>
+					<Timing driverId="kvyat" lap="21" position="17" time="1:22.622"/>
+					<Timing driverId="wehrlein" lap="21" position="18" time="1:22.724"/>
+					<Timing driverId="ericsson" lap="21" position="19" time="1:22.128"/>
+					<Timing driverId="jolyon_palmer" lap="21" position="20" time="1:24.082"/>
+					<Timing driverId="haryanto" lap="21" position="21" time="1:22.409"/>
+					<Timing driverId="nasr" lap="21" position="22" time="1:25.442"/>
+				</Lap>
+				<Lap number="22">
+					<Timing driverId="hamilton" lap="22" position="1" time="1:20.708"/>
+					<Timing driverId="max_verstappen" lap="22" position="2" time="1:20.938"/>
+					<Timing driverId="ricciardo" lap="22" position="3" time="1:21.441"/>
+					<Timing driverId="rosberg" lap="22" position="4" time="1:21.386"/>
+					<Timing driverId="vettel" lap="22" position="5" time="1:21.039"/>
+					<Timing driverId="raikkonen" lap="22" position="6" time="1:21.149"/>
+					<Timing driverId="bottas" lap="22" position="7" time="1:21.725"/>
+					<Timing driverId="hulkenberg" lap="22" position="8" time="1:21.801"/>
+					<Timing driverId="button" lap="22" position="9" time="1:22.149"/>
+					<Timing driverId="alonso" lap="22" position="10" time="1:22.871"/>
+					<Timing driverId="gutierrez" lap="22" position="11" time="1:24.544"/>
+					<Timing driverId="perez" lap="22" position="12" time="1:22.977"/>
+					<Timing driverId="kevin_magnussen" lap="22" position="13" time="1:22.343"/>
+					<Timing driverId="sainz" lap="22" position="14" time="1:22.148"/>
+					<Timing driverId="grosjean" lap="22" position="15" time="1:22.223"/>
+					<Timing driverId="massa" lap="22" position="16" time="1:23.221"/>
+					<Timing driverId="kvyat" lap="22" position="17" time="1:22.627"/>
+					<Timing driverId="wehrlein" lap="22" position="18" time="1:22.773"/>
+					<Timing driverId="ericsson" lap="22" position="19" time="1:22.220"/>
+					<Timing driverId="jolyon_palmer" lap="22" position="20" time="1:23.747"/>
+					<Timing driverId="haryanto" lap="22" position="21" time="1:23.887"/>
+					<Timing driverId="nasr" lap="22" position="22" time="1:23.143"/>
+				</Lap>
+				<Lap number="23">
+					<Timing driverId="hamilton" lap="23" position="1" time="1:21.240"/>
+					<Timing driverId="max_verstappen" lap="23" position="2" time="1:20.934"/>
+					<Timing driverId="ricciardo" lap="23" position="3" time="1:21.237"/>
+					<Timing driverId="rosberg" lap="23" position="4" time="1:21.022"/>
+					<Timing driverId="vettel" lap="23" position="5" time="1:21.018"/>
+					<Timing driverId="raikkonen" lap="23" position="6" time="1:21.149"/>
+					<Timing driverId="bottas" lap="23" position="7" time="1:21.826"/>
+					<Timing driverId="hulkenberg" lap="23" position="8" time="1:21.967"/>
+					<Timing driverId="button" lap="23" position="9" time="1:21.970"/>
+					<Timing driverId="alonso" lap="23" position="10" time="1:22.087"/>
+					<Timing driverId="perez" lap="23" position="11" time="1:22.912"/>
+					<Timing driverId="gutierrez" lap="23" position="12" time="1:25.119"/>
+					<Timing driverId="kevin_magnussen" lap="23" position="13" time="1:22.637"/>
+					<Timing driverId="grosjean" lap="23" position="14" time="1:21.710"/>
+					<Timing driverId="sainz" lap="23" position="15" time="1:23.912"/>
+					<Timing driverId="massa" lap="23" position="16" time="1:23.068"/>
+					<Timing driverId="kvyat" lap="23" position="17" time="1:22.830"/>
+					<Timing driverId="wehrlein" lap="23" position="18" time="1:22.885"/>
+					<Timing driverId="ericsson" lap="23" position="19" time="1:22.553"/>
+					<Timing driverId="jolyon_palmer" lap="23" position="20" time="1:24.121"/>
+					<Timing driverId="haryanto" lap="23" position="21" time="1:23.088"/>
+					<Timing driverId="nasr" lap="23" position="22" time="1:22.351"/>
+				</Lap>
+				<Lap number="24">
+					<Timing driverId="hamilton" lap="24" position="1" time="1:21.024"/>
+					<Timing driverId="max_verstappen" lap="24" position="2" time="1:21.067"/>
+					<Timing driverId="ricciardo" lap="24" position="3" time="1:21.149"/>
+					<Timing driverId="rosberg" lap="24" position="4" time="1:21.112"/>
+					<Timing driverId="vettel" lap="24" position="5" time="1:21.099"/>
+					<Timing driverId="raikkonen" lap="24" position="6" time="1:21.068"/>
+					<Timing driverId="bottas" lap="24" position="7" time="1:21.734"/>
+					<Timing driverId="hulkenberg" lap="24" position="8" time="1:21.768"/>
+					<Timing driverId="button" lap="24" position="9" time="1:22.048"/>
+					<Timing driverId="alonso" lap="24" position="10" time="1:22.127"/>
+					<Timing driverId="perez" lap="24" position="11" time="1:22.611"/>
+					<Timing driverId="gutierrez" lap="24" position="12" time="1:23.789"/>
+					<Timing driverId="kevin_magnussen" lap="24" position="13" time="1:23.080"/>
+					<Timing driverId="grosjean" lap="24" position="14" time="1:21.899"/>
+					<Timing driverId="sainz" lap="24" position="15" time="1:22.604"/>
+					<Timing driverId="massa" lap="24" position="16" time="1:23.229"/>
+					<Timing driverId="kvyat" lap="24" position="17" time="1:22.835"/>
+					<Timing driverId="wehrlein" lap="24" position="18" time="1:23.227"/>
+					<Timing driverId="ericsson" lap="24" position="19" time="1:22.644"/>
+					<Timing driverId="jolyon_palmer" lap="24" position="20" time="1:25.895"/>
+					<Timing driverId="haryanto" lap="24" position="21" time="1:22.985"/>
+					<Timing driverId="nasr" lap="24" position="22" time="1:22.436"/>
+				</Lap>
+				<Lap number="25">
+					<Timing driverId="hamilton" lap="25" position="1" time="1:20.997"/>
+					<Timing driverId="max_verstappen" lap="25" position="2" time="1:21.292"/>
+					<Timing driverId="ricciardo" lap="25" position="3" time="1:21.085"/>
+					<Timing driverId="rosberg" lap="25" position="4" time="1:21.295"/>
+					<Timing driverId="vettel" lap="25" position="5" time="1:21.681"/>
+					<Timing driverId="raikkonen" lap="25" position="6" time="1:21.315"/>
+					<Timing driverId="bottas" lap="25" position="7" time="1:21.923"/>
+					<Timing driverId="hulkenberg" lap="25" position="8" time="1:21.578"/>
+					<Timing driverId="button" lap="25" position="9" time="1:22.241"/>
+					<Timing driverId="alonso" lap="25" position="10" time="1:22.110"/>
+					<Timing driverId="perez" lap="25" position="11" time="1:22.307"/>
+					<Timing driverId="kevin_magnussen" lap="25" position="12" time="1:22.730"/>
+					<Timing driverId="grosjean" lap="25" position="13" time="1:22.480"/>
+					<Timing driverId="sainz" lap="25" position="14" time="1:22.936"/>
+					<Timing driverId="gutierrez" lap="25" position="15" time="1:28.520"/>
+					<Timing driverId="massa" lap="25" position="16" time="1:23.543"/>
+					<Timing driverId="kvyat" lap="25" position="17" time="1:23.107"/>
+					<Timing driverId="wehrlein" lap="25" position="18" time="1:23.543"/>
+					<Timing driverId="ericsson" lap="25" position="19" time="1:22.589"/>
+					<Timing driverId="jolyon_palmer" lap="25" position="20" time="1:27.792"/>
+					<Timing driverId="haryanto" lap="25" position="21" time="1:25.040"/>
+					<Timing driverId="nasr" lap="25" position="22" time="1:23.603"/>
+				</Lap>
+				<Lap number="26">
+					<Timing driverId="hamilton" lap="26" position="1" time="1:20.736"/>
+					<Timing driverId="max_verstappen" lap="26" position="2" time="1:21.865"/>
+					<Timing driverId="ricciardo" lap="26" position="3" time="1:21.719"/>
+					<Timing driverId="rosberg" lap="26" position="4" time="1:21.400"/>
+					<Timing driverId="vettel" lap="26" position="5" time="1:21.505"/>
+					<Timing driverId="raikkonen" lap="26" position="6" time="1:21.329"/>
+					<Timing driverId="bottas" lap="26" position="7" time="1:21.881"/>
+					<Timing driverId="hulkenberg" lap="26" position="8" time="1:21.829"/>
+					<Timing driverId="button" lap="26" position="9" time="1:22.205"/>
+					<Timing driverId="alonso" lap="26" position="10" time="1:22.133"/>
+					<Timing driverId="perez" lap="26" position="11" time="1:22.551"/>
+					<Timing driverId="kevin_magnussen" lap="26" position="12" time="1:22.547"/>
+					<Timing driverId="grosjean" lap="26" position="13" time="1:22.305"/>
+					<Timing driverId="sainz" lap="26" position="14" time="1:22.908"/>
+					<Timing driverId="kvyat" lap="26" position="15" time="1:22.963"/>
+					<Timing driverId="massa" lap="26" position="16" time="1:26.563"/>
+					<Timing driverId="wehrlein" lap="26" position="17" time="1:27.255"/>
+					<Timing driverId="gutierrez" lap="26" position="18" time="1:36.558"/>
+					<Timing driverId="ericsson" lap="26" position="19" time="1:23.236"/>
+					<Timing driverId="haryanto" lap="26" position="20" time="1:25.269"/>
+					<Timing driverId="nasr" lap="26" position="21" time="1:22.560"/>
+					<Timing driverId="jolyon_palmer" lap="26" position="22" time="1:43.325"/>
+				</Lap>
+				<Lap number="27">
+					<Timing driverId="hamilton" lap="27" position="1" time="1:20.780"/>
+					<Timing driverId="max_verstappen" lap="27" position="2" time="1:21.121"/>
+					<Timing driverId="ricciardo" lap="27" position="3" time="1:21.228"/>
+					<Timing driverId="rosberg" lap="27" position="4" time="1:24.785"/>
+					<Timing driverId="vettel" lap="27" position="5" time="1:21.615"/>
+					<Timing driverId="raikkonen" lap="27" position="6" time="1:21.552"/>
+					<Timing driverId="bottas" lap="27" position="7" time="1:22.412"/>
+					<Timing driverId="hulkenberg" lap="27" position="8" time="1:21.816"/>
+					<Timing driverId="button" lap="27" position="9" time="1:22.360"/>
+					<Timing driverId="alonso" lap="27" position="10" time="1:21.756"/>
+					<Timing driverId="perez" lap="27" position="11" time="1:25.509"/>
+					<Timing driverId="kevin_magnussen" lap="27" position="12" time="1:22.708"/>
+					<Timing driverId="grosjean" lap="27" position="13" time="1:22.567"/>
+					<Timing driverId="sainz" lap="27" position="14" time="1:23.070"/>
+					<Timing driverId="kvyat" lap="27" position="15" time="1:22.943"/>
+					<Timing driverId="gutierrez" lap="27" position="16" time="1:20.339"/>
+					<Timing driverId="ericsson" lap="27" position="17" time="1:22.859"/>
+					<Timing driverId="wehrlein" lap="27" position="18" time="1:39.193"/>
+					<Timing driverId="haryanto" lap="27" position="19" time="1:23.325"/>
+					<Timing driverId="massa" lap="27" position="20" time="1:53.379"/>
+					<Timing driverId="nasr" lap="27" position="21" time="1:22.575"/>
+					<Timing driverId="jolyon_palmer" lap="27" position="22" time="1:21.266"/>
+				</Lap>
+				<Lap number="28">
+					<Timing driverId="hamilton" lap="28" position="1" time="1:21.358"/>
+					<Timing driverId="ricciardo" lap="28" position="2" time="1:21.427"/>
+					<Timing driverId="max_verstappen" lap="28" position="3" time="1:24.241"/>
+					<Timing driverId="vettel" lap="28" position="4" time="1:22.108"/>
+					<Timing driverId="raikkonen" lap="28" position="5" time="1:21.682"/>
+					<Timing driverId="rosberg" lap="28" position="6" time="1:32.977"/>
+					<Timing driverId="bottas" lap="28" position="7" time="1:22.000"/>
+					<Timing driverId="hulkenberg" lap="28" position="8" time="1:22.051"/>
+					<Timing driverId="button" lap="28" position="9" time="1:22.276"/>
+					<Timing driverId="alonso" lap="28" position="10" time="1:25.360"/>
+					<Timing driverId="kevin_magnussen" lap="28" position="11" time="1:24.386"/>
+					<Timing driverId="grosjean" lap="28" position="12" time="1:24.347"/>
+					<Timing driverId="sainz" lap="28" position="13" time="1:23.177"/>
+					<Timing driverId="perez" lap="28" position="14" time="1:35.235"/>
+					<Timing driverId="kvyat" lap="28" position="15" time="1:25.704"/>
+					<Timing driverId="gutierrez" lap="28" position="16" time="1:21.003"/>
+					<Timing driverId="ericsson" lap="28" position="17" time="1:24.240"/>
+					<Timing driverId="wehrlein" lap="28" position="18" time="1:21.943"/>
+					<Timing driverId="massa" lap="28" position="19" time="1:22.187"/>
+					<Timing driverId="haryanto" lap="28" position="20" time="1:25.447"/>
+					<Timing driverId="nasr" lap="28" position="21" time="1:24.290"/>
+					<Timing driverId="jolyon_palmer" lap="28" position="22" time="1:21.840"/>
+				</Lap>
+				<Lap number="29">
+					<Timing driverId="hamilton" lap="29" position="1" time="1:21.367"/>
+					<Timing driverId="ricciardo" lap="29" position="2" time="1:21.374"/>
+					<Timing driverId="vettel" lap="29" position="3" time="1:22.409"/>
+					<Timing driverId="raikkonen" lap="29" position="4" time="1:21.745"/>
+					<Timing driverId="rosberg" lap="29" position="5" time="1:20.206"/>
+					<Timing driverId="max_verstappen" lap="29" position="6" time="1:36.490"/>
+					<Timing driverId="bottas" lap="29" position="7" time="1:22.006"/>
+					<Timing driverId="hulkenberg" lap="29" position="8" time="1:22.198"/>
+					<Timing driverId="button" lap="29" position="9" time="1:22.219"/>
+					<Timing driverId="kevin_magnussen" lap="29" position="10" time="1:22.581"/>
+					<Timing driverId="grosjean" lap="29" position="11" time="1:23.431"/>
+					<Timing driverId="alonso" lap="29" position="12" time="1:35.134"/>
+					<Timing driverId="sainz" lap="29" position="13" time="1:26.398"/>
+					<Timing driverId="perez" lap="29" position="14" time="1:20.270"/>
+					<Timing driverId="gutierrez" lap="29" position="15" time="1:20.956"/>
+					<Timing driverId="ericsson" lap="29" position="16" time="1:22.802"/>
+					<Timing driverId="kvyat" lap="29" position="17" time="1:36.876"/>
+					<Timing driverId="wehrlein" lap="29" position="18" time="1:21.700"/>
+					<Timing driverId="massa" lap="29" position="19" time="1:21.891"/>
+					<Timing driverId="haryanto" lap="29" position="20" time="1:25.285"/>
+					<Timing driverId="nasr" lap="29" position="21" time="1:23.679"/>
+					<Timing driverId="jolyon_palmer" lap="29" position="22" time="1:21.845"/>
+				</Lap>
+				<Lap number="30">
+					<Timing driverId="hamilton" lap="30" position="1" time="1:20.775"/>
+					<Timing driverId="ricciardo" lap="30" position="2" time="1:21.509"/>
+					<Timing driverId="vettel" lap="30" position="3" time="1:21.734"/>
+					<Timing driverId="raikkonen" lap="30" position="4" time="1:21.541"/>
+					<Timing driverId="rosberg" lap="30" position="5" time="1:20.358"/>
+					<Timing driverId="max_verstappen" lap="30" position="6" time="1:20.535"/>
+					<Timing driverId="bottas" lap="30" position="7" time="1:22.264"/>
+					<Timing driverId="hulkenberg" lap="30" position="8" time="1:21.968"/>
+					<Timing driverId="button" lap="30" position="9" time="1:22.186"/>
+					<Timing driverId="kevin_magnussen" lap="30" position="10" time="1:22.389"/>
+					<Timing driverId="grosjean" lap="30" position="11" time="1:22.512"/>
+					<Timing driverId="alonso" lap="30" position="12" time="1:20.244"/>
+					<Timing driverId="perez" lap="30" position="13" time="1:20.285"/>
+					<Timing driverId="gutierrez" lap="30" position="14" time="1:20.631"/>
+					<Timing driverId="sainz" lap="30" position="15" time="1:36.063"/>
+					<Timing driverId="ericsson" lap="30" position="16" time="1:23.252"/>
+					<Timing driverId="kvyat" lap="30" position="17" time="1:20.755"/>
+					<Timing driverId="wehrlein" lap="30" position="18" time="1:21.676"/>
+					<Timing driverId="massa" lap="30" position="19" time="1:21.887"/>
+					<Timing driverId="haryanto" lap="30" position="20" time="1:24.694"/>
+					<Timing driverId="nasr" lap="30" position="21" time="1:23.867"/>
+					<Timing driverId="jolyon_palmer" lap="30" position="22" time="1:21.692"/>
+				</Lap>
+				<Lap number="31">
+					<Timing driverId="hamilton" lap="31" position="1" time="1:20.609"/>
+					<Timing driverId="ricciardo" lap="31" position="2" time="1:21.364"/>
+					<Timing driverId="raikkonen" lap="31" position="3" time="1:21.557"/>
+					<Timing driverId="vettel" lap="31" position="4" time="1:25.196"/>
+					<Timing driverId="rosberg" lap="31" position="5" time="1:20.385"/>
+					<Timing driverId="max_verstappen" lap="31" position="6" time="1:20.607"/>
+					<Timing driverId="bottas" lap="31" position="7" time="1:21.902"/>
+					<Timing driverId="hulkenberg" lap="31" position="8" time="1:22.113"/>
+					<Timing driverId="button" lap="31" position="9" time="1:25.092"/>
+					<Timing driverId="kevin_magnussen" lap="31" position="10" time="1:22.381"/>
+					<Timing driverId="grosjean" lap="31" position="11" time="1:22.130"/>
+					<Timing driverId="alonso" lap="31" position="12" time="1:21.156"/>
+					<Timing driverId="perez" lap="31" position="13" time="1:20.697"/>
+					<Timing driverId="gutierrez" lap="31" position="14" time="1:20.754"/>
+					<Timing driverId="sainz" lap="31" position="15" time="1:20.815"/>
+					<Timing driverId="ericsson" lap="31" position="16" time="1:23.122"/>
+					<Timing driverId="kvyat" lap="31" position="17" time="1:21.829"/>
+					<Timing driverId="wehrlein" lap="31" position="18" time="1:21.772"/>
+					<Timing driverId="massa" lap="31" position="19" time="1:21.476"/>
+					<Timing driverId="haryanto" lap="31" position="20" time="1:24.793"/>
+					<Timing driverId="nasr" lap="31" position="21" time="1:24.885"/>
+					<Timing driverId="jolyon_palmer" lap="31" position="22" time="1:22.314"/>
+				</Lap>
+				<Lap number="32">
+					<Timing driverId="hamilton" lap="32" position="1" time="1:20.840"/>
+					<Timing driverId="ricciardo" lap="32" position="2" time="1:21.498"/>
+					<Timing driverId="rosberg" lap="32" position="3" time="1:20.941"/>
+					<Timing driverId="max_verstappen" lap="32" position="4" time="1:20.676"/>
+					<Timing driverId="raikkonen" lap="32" position="5" time="1:25.148"/>
+					<Timing driverId="vettel" lap="32" position="6" time="1:35.088"/>
+					<Timing driverId="bottas" lap="32" position="7" time="1:23.558"/>
+					<Timing driverId="hulkenberg" lap="32" position="8" time="1:25.253"/>
+					<Timing driverId="button" lap="32" position="9" time="1:34.847"/>
+					<Timing driverId="alonso" lap="32" position="10" time="1:21.656"/>
+					<Timing driverId="grosjean" lap="32" position="11" time="1:23.573"/>
+					<Timing driverId="perez" lap="32" position="12" time="1:21.402"/>
+					<Timing driverId="kevin_magnussen" lap="32" position="13" time="1:26.116"/>
+					<Timing driverId="gutierrez" lap="32" position="14" time="1:21.133"/>
+					<Timing driverId="sainz" lap="32" position="15" time="1:21.061"/>
+					<Timing driverId="kvyat" lap="32" position="16" time="1:21.909"/>
+					<Timing driverId="ericsson" lap="32" position="17" time="1:24.475"/>
+					<Timing driverId="wehrlein" lap="32" position="18" time="1:21.963"/>
+					<Timing driverId="massa" lap="32" position="19" time="1:21.649"/>
+					<Timing driverId="nasr" lap="32" position="20" time="1:22.861"/>
+					<Timing driverId="jolyon_palmer" lap="32" position="21" time="1:22.993"/>
+					<Timing driverId="haryanto" lap="32" position="22" time="1:28.466"/>
+				</Lap>
+				<Lap number="33">
+					<Timing driverId="hamilton" lap="33" position="1" time="1:20.853"/>
+					<Timing driverId="ricciardo" lap="33" position="2" time="1:25.008"/>
+					<Timing driverId="rosberg" lap="33" position="3" time="1:20.266"/>
+					<Timing driverId="max_verstappen" lap="33" position="4" time="1:20.659"/>
+					<Timing driverId="vettel" lap="33" position="5" time="1:20.515"/>
+					<Timing driverId="raikkonen" lap="33" position="6" time="1:35.901"/>
+					<Timing driverId="bottas" lap="33" position="7" time="1:25.705"/>
+					<Timing driverId="hulkenberg" lap="33" position="8" time="1:34.293"/>
+					<Timing driverId="button" lap="33" position="9" time="1:20.711"/>
+					<Timing driverId="alonso" lap="33" position="10" time="1:21.027"/>
+					<Timing driverId="perez" lap="33" position="11" time="1:21.576"/>
+					<Timing driverId="grosjean" lap="33" position="12" time="1:23.605"/>
+					<Timing driverId="gutierrez" lap="33" position="13" time="1:20.883"/>
+					<Timing driverId="sainz" lap="33" position="14" time="1:22.670"/>
+					<Timing driverId="kevin_magnussen" lap="33" position="15" time="1:37.642"/>
+					<Timing driverId="kvyat" lap="33" position="16" time="1:21.327"/>
+					<Timing driverId="wehrlein" lap="33" position="17" time="1:21.933"/>
+					<Timing driverId="ericsson" lap="33" position="18" time="1:27.235"/>
+					<Timing driverId="massa" lap="33" position="19" time="1:23.318"/>
+					<Timing driverId="nasr" lap="33" position="20" time="1:23.183"/>
+					<Timing driverId="jolyon_palmer" lap="33" position="21" time="1:22.852"/>
+					<Timing driverId="haryanto" lap="33" position="22" time="1:38.297"/>
+				</Lap>
+				<Lap number="34">
+					<Timing driverId="hamilton" lap="34" position="1" time="1:24.134"/>
+					<Timing driverId="rosberg" lap="34" position="2" time="1:20.190"/>
+					<Timing driverId="max_verstappen" lap="34" position="3" time="1:21.291"/>
+					<Timing driverId="ricciardo" lap="34" position="4" time="1:33.913"/>
+					<Timing driverId="vettel" lap="34" position="5" time="1:20.591"/>
+					<Timing driverId="raikkonen" lap="34" position="6" time="1:20.066"/>
+					<Timing driverId="hulkenberg" lap="34" position="7" time="1:20.180"/>
+					<Timing driverId="bottas" lap="34" position="8" time="1:35.347"/>
+					<Timing driverId="button" lap="34" position="9" time="1:20.846"/>
+					<Timing driverId="alonso" lap="34" position="10" time="1:20.869"/>
+					<Timing driverId="perez" lap="34" position="11" time="1:21.549"/>
+					<Timing driverId="grosjean" lap="34" position="12" time="1:22.472"/>
+					<Timing driverId="gutierrez" lap="34" position="13" time="1:21.378"/>
+					<Timing driverId="sainz" lap="34" position="14" time="1:21.444"/>
+					<Timing driverId="kevin_magnussen" lap="34" position="15" time="1:21.684"/>
+					<Timing driverId="kvyat" lap="34" position="16" time="1:21.643"/>
+					<Timing driverId="wehrlein" lap="34" position="17" time="1:22.470"/>
+					<Timing driverId="massa" lap="34" position="18" time="1:23.132"/>
+					<Timing driverId="ericsson" lap="34" position="19" time="1:35.900"/>
+					<Timing driverId="nasr" lap="34" position="20" time="1:23.800"/>
+					<Timing driverId="jolyon_palmer" lap="34" position="21" time="1:23.467"/>
+					<Timing driverId="haryanto" lap="34" position="22" time="1:22.431"/>
+				</Lap>
+				<Lap number="35">
+					<Timing driverId="hamilton" lap="35" position="1" time="1:34.831"/>
+					<Timing driverId="rosberg" lap="35" position="2" time="1:19.911"/>
+					<Timing driverId="max_verstappen" lap="35" position="3" time="1:20.644"/>
+					<Timing driverId="ricciardo" lap="35" position="4" time="1:19.684"/>
+					<Timing driverId="vettel" lap="35" position="5" time="1:20.414"/>
+					<Timing driverId="raikkonen" lap="35" position="6" time="1:20.509"/>
+					<Timing driverId="hulkenberg" lap="35" position="7" time="1:20.386"/>
+					<Timing driverId="bottas" lap="35" position="8" time="1:20.699"/>
+					<Timing driverId="button" lap="35" position="9" time="1:20.942"/>
+					<Timing driverId="alonso" lap="35" position="10" time="1:21.194"/>
+					<Timing driverId="perez" lap="35" position="11" time="1:21.438"/>
+					<Timing driverId="grosjean" lap="35" position="12" time="1:22.872"/>
+					<Timing driverId="gutierrez" lap="35" position="13" time="1:22.394"/>
+					<Timing driverId="sainz" lap="35" position="14" time="1:21.548"/>
+					<Timing driverId="kevin_magnussen" lap="35" position="15" time="1:21.891"/>
+					<Timing driverId="kvyat" lap="35" position="16" time="1:21.359"/>
+					<Timing driverId="wehrlein" lap="35" position="17" time="1:22.074"/>
+					<Timing driverId="massa" lap="35" position="18" time="1:22.757"/>
+					<Timing driverId="ericsson" lap="35" position="19" time="1:21.212"/>
+					<Timing driverId="nasr" lap="35" position="20" time="1:23.598"/>
+					<Timing driverId="jolyon_palmer" lap="35" position="21" time="1:22.225"/>
+					<Timing driverId="haryanto" lap="35" position="22" time="1:23.178"/>
+				</Lap>
+				<Lap number="36">
+					<Timing driverId="hamilton" lap="36" position="1" time="1:20.392"/>
+					<Timing driverId="rosberg" lap="36" position="2" time="1:20.179"/>
+					<Timing driverId="max_verstappen" lap="36" position="3" time="1:20.642"/>
+					<Timing driverId="ricciardo" lap="36" position="4" time="1:19.681"/>
+					<Timing driverId="vettel" lap="36" position="5" time="1:20.421"/>
+					<Timing driverId="raikkonen" lap="36" position="6" time="1:19.572"/>
+					<Timing driverId="hulkenberg" lap="36" position="7" time="1:20.697"/>
+					<Timing driverId="bottas" lap="36" position="8" time="1:20.442"/>
+					<Timing driverId="button" lap="36" position="9" time="1:20.932"/>
+					<Timing driverId="alonso" lap="36" position="10" time="1:20.750"/>
+					<Timing driverId="perez" lap="36" position="11" time="1:21.469"/>
+					<Timing driverId="gutierrez" lap="36" position="12" time="1:21.157"/>
+					<Timing driverId="grosjean" lap="36" position="13" time="1:23.475"/>
+					<Timing driverId="sainz" lap="36" position="14" time="1:21.399"/>
+					<Timing driverId="kevin_magnussen" lap="36" position="15" time="1:22.122"/>
+					<Timing driverId="kvyat" lap="36" position="16" time="1:21.379"/>
+					<Timing driverId="wehrlein" lap="36" position="17" time="1:23.508"/>
+					<Timing driverId="ericsson" lap="36" position="18" time="1:21.462"/>
+					<Timing driverId="massa" lap="36" position="19" time="1:25.860"/>
+					<Timing driverId="nasr" lap="36" position="20" time="1:23.033"/>
+					<Timing driverId="jolyon_palmer" lap="36" position="21" time="1:22.885"/>
+					<Timing driverId="haryanto" lap="36" position="22" time="1:22.719"/>
+				</Lap>
+				<Lap number="37">
+					<Timing driverId="hamilton" lap="37" position="1" time="1:19.452"/>
+					<Timing driverId="rosberg" lap="37" position="2" time="1:20.706"/>
+					<Timing driverId="max_verstappen" lap="37" position="3" time="1:20.282"/>
+					<Timing driverId="ricciardo" lap="37" position="4" time="1:19.869"/>
+					<Timing driverId="vettel" lap="37" position="5" time="1:20.029"/>
+					<Timing driverId="raikkonen" lap="37" position="6" time="1:19.993"/>
+					<Timing driverId="hulkenberg" lap="37" position="7" time="1:20.657"/>
+					<Timing driverId="bottas" lap="37" position="8" time="1:20.648"/>
+					<Timing driverId="button" lap="37" position="9" time="1:21.229"/>
+					<Timing driverId="alonso" lap="37" position="10" time="1:21.275"/>
+					<Timing driverId="perez" lap="37" position="11" time="1:21.287"/>
+					<Timing driverId="gutierrez" lap="37" position="12" time="1:21.325"/>
+					<Timing driverId="grosjean" lap="37" position="13" time="1:22.724"/>
+					<Timing driverId="sainz" lap="37" position="14" time="1:21.613"/>
+					<Timing driverId="kevin_magnussen" lap="37" position="15" time="1:21.668"/>
+					<Timing driverId="kvyat" lap="37" position="16" time="1:21.300"/>
+					<Timing driverId="wehrlein" lap="37" position="17" time="1:24.540"/>
+					<Timing driverId="ericsson" lap="37" position="18" time="1:21.904"/>
+					<Timing driverId="jolyon_palmer" lap="37" position="19" time="1:23.134"/>
+					<Timing driverId="nasr" lap="37" position="20" time="1:24.881"/>
+					<Timing driverId="haryanto" lap="37" position="21" time="1:22.139"/>
+				</Lap>
+				<Lap number="38">
+					<Timing driverId="hamilton" lap="38" position="1" time="1:19.716"/>
+					<Timing driverId="rosberg" lap="38" position="2" time="1:20.173"/>
+					<Timing driverId="max_verstappen" lap="38" position="3" time="1:20.291"/>
+					<Timing driverId="ricciardo" lap="38" position="4" time="1:19.858"/>
+					<Timing driverId="vettel" lap="38" position="5" time="1:20.335"/>
+					<Timing driverId="raikkonen" lap="38" position="6" time="1:19.853"/>
+					<Timing driverId="hulkenberg" lap="38" position="7" time="1:20.748"/>
+					<Timing driverId="bottas" lap="38" position="8" time="1:20.463"/>
+					<Timing driverId="button" lap="38" position="9" time="1:20.943"/>
+					<Timing driverId="alonso" lap="38" position="10" time="1:21.082"/>
+					<Timing driverId="perez" lap="38" position="11" time="1:21.484"/>
+					<Timing driverId="gutierrez" lap="38" position="12" time="1:21.206"/>
+					<Timing driverId="grosjean" lap="38" position="13" time="1:22.637"/>
+					<Timing driverId="sainz" lap="38" position="14" time="1:21.408"/>
+					<Timing driverId="kevin_magnussen" lap="38" position="15" time="1:21.703"/>
+					<Timing driverId="kvyat" lap="38" position="16" time="1:22.988"/>
+					<Timing driverId="wehrlein" lap="38" position="17" time="1:22.271"/>
+					<Timing driverId="ericsson" lap="38" position="18" time="1:22.870"/>
+					<Timing driverId="jolyon_palmer" lap="38" position="19" time="1:22.328"/>
+					<Timing driverId="nasr" lap="38" position="20" time="1:23.319"/>
+					<Timing driverId="haryanto" lap="38" position="21" time="1:22.058"/>
+				</Lap>
+				<Lap number="39">
+					<Timing driverId="hamilton" lap="39" position="1" time="1:20.059"/>
+					<Timing driverId="rosberg" lap="39" position="2" time="1:20.194"/>
+					<Timing driverId="max_verstappen" lap="39" position="3" time="1:20.126"/>
+					<Timing driverId="ricciardo" lap="39" position="4" time="1:19.968"/>
+					<Timing driverId="vettel" lap="39" position="5" time="1:19.820"/>
+					<Timing driverId="raikkonen" lap="39" position="6" time="1:20.242"/>
+					<Timing driverId="hulkenberg" lap="39" position="7" time="1:20.526"/>
+					<Timing driverId="bottas" lap="39" position="8" time="1:20.566"/>
+					<Timing driverId="button" lap="39" position="9" time="1:21.336"/>
+					<Timing driverId="alonso" lap="39" position="10" time="1:21.129"/>
+					<Timing driverId="perez" lap="39" position="11" time="1:21.553"/>
+					<Timing driverId="gutierrez" lap="39" position="12" time="1:21.972"/>
+					<Timing driverId="grosjean" lap="39" position="13" time="1:22.527"/>
+					<Timing driverId="sainz" lap="39" position="14" time="1:21.519"/>
+					<Timing driverId="kevin_magnussen" lap="39" position="15" time="1:22.730"/>
+					<Timing driverId="kvyat" lap="39" position="16" time="1:21.421"/>
+					<Timing driverId="wehrlein" lap="39" position="17" time="1:21.893"/>
+					<Timing driverId="ericsson" lap="39" position="18" time="1:22.803"/>
+					<Timing driverId="jolyon_palmer" lap="39" position="19" time="1:22.248"/>
+					<Timing driverId="nasr" lap="39" position="20" time="1:22.825"/>
+					<Timing driverId="haryanto" lap="39" position="21" time="1:23.207"/>
+				</Lap>
+				<Lap number="40">
+					<Timing driverId="hamilton" lap="40" position="1" time="1:19.939"/>
+					<Timing driverId="rosberg" lap="40" position="2" time="1:20.140"/>
+					<Timing driverId="ricciardo" lap="40" position="3" time="1:19.105"/>
+					<Timing driverId="max_verstappen" lap="40" position="4" time="1:21.482"/>
+					<Timing driverId="vettel" lap="40" position="5" time="1:19.982"/>
+					<Timing driverId="raikkonen" lap="40" position="6" time="1:20.385"/>
+					<Timing driverId="hulkenberg" lap="40" position="7" time="1:20.629"/>
+					<Timing driverId="bottas" lap="40" position="8" time="1:20.491"/>
+					<Timing driverId="button" lap="40" position="9" time="1:21.054"/>
+					<Timing driverId="alonso" lap="40" position="10" time="1:21.180"/>
+					<Timing driverId="perez" lap="40" position="11" time="1:21.703"/>
+					<Timing driverId="gutierrez" lap="40" position="12" time="1:21.892"/>
+					<Timing driverId="grosjean" lap="40" position="13" time="1:22.777"/>
+					<Timing driverId="sainz" lap="40" position="14" time="1:21.312"/>
+					<Timing driverId="kevin_magnussen" lap="40" position="15" time="1:21.765"/>
+					<Timing driverId="kvyat" lap="40" position="16" time="1:21.461"/>
+					<Timing driverId="wehrlein" lap="40" position="17" time="1:21.953"/>
+					<Timing driverId="ericsson" lap="40" position="18" time="1:22.246"/>
+					<Timing driverId="jolyon_palmer" lap="40" position="19" time="1:22.214"/>
+					<Timing driverId="nasr" lap="40" position="20" time="1:23.039"/>
+					<Timing driverId="haryanto" lap="40" position="21" time="1:22.462"/>
+				</Lap>
+				<Lap number="41">
+					<Timing driverId="hamilton" lap="41" position="1" time="1:19.808"/>
+					<Timing driverId="rosberg" lap="41" position="2" time="1:20.362"/>
+					<Timing driverId="ricciardo" lap="41" position="3" time="1:19.715"/>
+					<Timing driverId="max_verstappen" lap="41" position="4" time="1:20.410"/>
+					<Timing driverId="vettel" lap="41" position="5" time="1:20.156"/>
+					<Timing driverId="raikkonen" lap="41" position="6" time="1:20.079"/>
+					<Timing driverId="hulkenberg" lap="41" position="7" time="1:20.897"/>
+					<Timing driverId="bottas" lap="41" position="8" time="1:20.571"/>
+					<Timing driverId="button" lap="41" position="9" time="1:21.275"/>
+					<Timing driverId="alonso" lap="41" position="10" time="1:21.593"/>
+					<Timing driverId="perez" lap="41" position="11" time="1:21.681"/>
+					<Timing driverId="gutierrez" lap="41" position="12" time="1:21.501"/>
+					<Timing driverId="grosjean" lap="41" position="13" time="1:22.877"/>
+					<Timing driverId="sainz" lap="41" position="14" time="1:22.797"/>
+					<Timing driverId="kevin_magnussen" lap="41" position="15" time="1:21.724"/>
+					<Timing driverId="kvyat" lap="41" position="16" time="1:21.451"/>
+					<Timing driverId="wehrlein" lap="41" position="17" time="1:22.258"/>
+					<Timing driverId="ericsson" lap="41" position="18" time="1:22.349"/>
+					<Timing driverId="jolyon_palmer" lap="41" position="19" time="1:22.129"/>
+					<Timing driverId="nasr" lap="41" position="20" time="1:24.849"/>
+					<Timing driverId="haryanto" lap="41" position="21" time="1:23.432"/>
+				</Lap>
+				<Lap number="42">
+					<Timing driverId="hamilton" lap="42" position="1" time="1:19.858"/>
+					<Timing driverId="rosberg" lap="42" position="2" time="1:21.099"/>
+					<Timing driverId="ricciardo" lap="42" position="3" time="1:20.112"/>
+					<Timing driverId="max_verstappen" lap="42" position="4" time="1:20.652"/>
+					<Timing driverId="vettel" lap="42" position="5" time="1:20.509"/>
+					<Timing driverId="raikkonen" lap="42" position="6" time="1:20.406"/>
+					<Timing driverId="hulkenberg" lap="42" position="7" time="1:20.989"/>
+					<Timing driverId="bottas" lap="42" position="8" time="1:20.988"/>
+					<Timing driverId="button" lap="42" position="9" time="1:21.314"/>
+					<Timing driverId="alonso" lap="42" position="10" time="1:21.181"/>
+					<Timing driverId="perez" lap="42" position="11" time="1:22.484"/>
+					<Timing driverId="gutierrez" lap="42" position="12" time="1:21.578"/>
+					<Timing driverId="grosjean" lap="42" position="13" time="1:23.054"/>
+					<Timing driverId="sainz" lap="42" position="14" time="1:21.605"/>
+					<Timing driverId="kevin_magnussen" lap="42" position="15" time="1:21.649"/>
+					<Timing driverId="kvyat" lap="42" position="16" time="1:21.513"/>
+					<Timing driverId="wehrlein" lap="42" position="17" time="1:23.973"/>
+					<Timing driverId="ericsson" lap="42" position="18" time="1:22.567"/>
+					<Timing driverId="jolyon_palmer" lap="42" position="19" time="1:22.384"/>
+					<Timing driverId="nasr" lap="42" position="20" time="1:26.891"/>
+					<Timing driverId="haryanto" lap="42" position="21" time="1:22.336"/>
+				</Lap>
+				<Lap number="43">
+					<Timing driverId="hamilton" lap="43" position="1" time="1:20.500"/>
+					<Timing driverId="rosberg" lap="43" position="2" time="1:21.076"/>
+					<Timing driverId="ricciardo" lap="43" position="3" time="1:20.450"/>
+					<Timing driverId="max_verstappen" lap="43" position="4" time="1:20.550"/>
+					<Timing driverId="vettel" lap="43" position="5" time="1:20.499"/>
+					<Timing driverId="raikkonen" lap="43" position="6" time="1:20.585"/>
+					<Timing driverId="hulkenberg" lap="43" position="7" time="1:20.889"/>
+					<Timing driverId="bottas" lap="43" position="8" time="1:20.851"/>
+					<Timing driverId="button" lap="43" position="9" time="1:21.411"/>
+					<Timing driverId="alonso" lap="43" position="10" time="1:21.124"/>
+					<Timing driverId="gutierrez" lap="43" position="11" time="1:21.345"/>
+					<Timing driverId="perez" lap="43" position="12" time="1:25.186"/>
+					<Timing driverId="sainz" lap="43" position="13" time="1:21.918"/>
+					<Timing driverId="grosjean" lap="43" position="14" time="1:27.425"/>
+					<Timing driverId="kevin_magnussen" lap="43" position="15" time="1:21.698"/>
+					<Timing driverId="kvyat" lap="43" position="16" time="1:21.783"/>
+					<Timing driverId="wehrlein" lap="43" position="17" time="1:23.896"/>
+					<Timing driverId="ericsson" lap="43" position="18" time="1:22.481"/>
+					<Timing driverId="jolyon_palmer" lap="43" position="19" time="1:25.459"/>
+					<Timing driverId="haryanto" lap="43" position="20" time="1:22.371"/>
+					<Timing driverId="nasr" lap="43" position="21" time="1:38.772"/>
+				</Lap>
+				<Lap number="44">
+					<Timing driverId="hamilton" lap="44" position="1" time="1:20.448"/>
+					<Timing driverId="ricciardo" lap="44" position="2" time="1:21.119"/>
+					<Timing driverId="max_verstappen" lap="44" position="3" time="1:20.832"/>
+					<Timing driverId="rosberg" lap="44" position="4" time="1:24.701"/>
+					<Timing driverId="vettel" lap="44" position="5" time="1:20.294"/>
+					<Timing driverId="raikkonen" lap="44" position="6" time="1:20.665"/>
+					<Timing driverId="bottas" lap="44" position="7" time="1:21.473"/>
+					<Timing driverId="hulkenberg" lap="44" position="8" time="1:24.298"/>
+					<Timing driverId="button" lap="44" position="9" time="1:21.507"/>
+					<Timing driverId="alonso" lap="44" position="10" time="1:21.170"/>
+					<Timing driverId="gutierrez" lap="44" position="11" time="1:22.246"/>
+					<Timing driverId="sainz" lap="44" position="12" time="1:21.839"/>
+					<Timing driverId="perez" lap="44" position="13" time="1:34.834"/>
+					<Timing driverId="kevin_magnussen" lap="44" position="14" time="1:22.115"/>
+					<Timing driverId="kvyat" lap="44" position="15" time="1:22.281"/>
+					<Timing driverId="grosjean" lap="44" position="16" time="1:37.798"/>
+					<Timing driverId="wehrlein" lap="44" position="17" time="1:22.607"/>
+					<Timing driverId="ericsson" lap="44" position="18" time="1:23.672"/>
+					<Timing driverId="jolyon_palmer" lap="44" position="19" time="1:22.862"/>
+					<Timing driverId="haryanto" lap="44" position="20" time="1:23.055"/>
+					<Timing driverId="nasr" lap="44" position="21" time="1:21.918"/>
+				</Lap>
+				<Lap number="45">
+					<Timing driverId="hamilton" lap="45" position="1" time="1:19.932"/>
+					<Timing driverId="ricciardo" lap="45" position="2" time="1:20.423"/>
+					<Timing driverId="max_verstappen" lap="45" position="3" time="1:24.054"/>
+					<Timing driverId="vettel" lap="45" position="4" time="1:20.503"/>
+					<Timing driverId="raikkonen" lap="45" position="5" time="1:20.678"/>
+					<Timing driverId="rosberg" lap="45" position="6" time="1:42.888"/>
+					<Timing driverId="bottas" lap="45" position="7" time="1:21.121"/>
+					<Timing driverId="button" lap="45" position="8" time="1:21.736"/>
+					<Timing driverId="alonso" lap="45" position="9" time="1:21.853"/>
+					<Timing driverId="hulkenberg" lap="45" position="10" time="1:35.315"/>
+					<Timing driverId="gutierrez" lap="45" position="11" time="1:21.713"/>
+					<Timing driverId="perez" lap="45" position="12" time="1:19.919"/>
+					<Timing driverId="sainz" lap="45" position="13" time="1:22.318"/>
+					<Timing driverId="kevin_magnussen" lap="45" position="14" time="1:22.052"/>
+					<Timing driverId="kvyat" lap="45" position="15" time="1:23.580"/>
+					<Timing driverId="grosjean" lap="45" position="16" time="1:20.664"/>
+					<Timing driverId="wehrlein" lap="45" position="17" time="1:23.571"/>
+					<Timing driverId="ericsson" lap="45" position="18" time="1:22.655"/>
+					<Timing driverId="jolyon_palmer" lap="45" position="19" time="1:25.988"/>
+					<Timing driverId="haryanto" lap="45" position="20" time="1:22.803"/>
+					<Timing driverId="nasr" lap="45" position="21" time="1:21.420"/>
+				</Lap>
+				<Lap number="46">
+					<Timing driverId="hamilton" lap="46" position="1" time="1:20.148"/>
+					<Timing driverId="ricciardo" lap="46" position="2" time="1:23.766"/>
+					<Timing driverId="vettel" lap="46" position="3" time="1:23.867"/>
+					<Timing driverId="raikkonen" lap="46" position="4" time="1:21.004"/>
+					<Timing driverId="max_verstappen" lap="46" position="5" time="1:33.407"/>
+					<Timing driverId="rosberg" lap="46" position="6" time="1:19.407"/>
+					<Timing driverId="bottas" lap="46" position="7" time="1:21.048"/>
+					<Timing driverId="alonso" lap="46" position="8" time="1:21.230"/>
+					<Timing driverId="button" lap="46" position="9" time="1:24.766"/>
+					<Timing driverId="hulkenberg" lap="46" position="10" time="1:20.056"/>
+					<Timing driverId="gutierrez" lap="46" position="11" time="1:21.728"/>
+					<Timing driverId="perez" lap="46" position="12" time="1:19.606"/>
+					<Timing driverId="sainz" lap="46" position="13" time="1:21.735"/>
+					<Timing driverId="kevin_magnussen" lap="46" position="14" time="1:21.987"/>
+					<Timing driverId="kvyat" lap="46" position="15" time="1:21.613"/>
+					<Timing driverId="grosjean" lap="46" position="16" time="1:20.368"/>
+					<Timing driverId="wehrlein" lap="46" position="17" time="1:27.390"/>
+					<Timing driverId="ericsson" lap="46" position="18" time="1:22.613"/>
+					<Timing driverId="haryanto" lap="46" position="19" time="1:22.628"/>
+				</Lap>
+			</LapsList>
+		</Race>
+	</RaceTable>
+</MRData>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="http://ergast.com/schemas/mrd-1.4.xsl"?>
+<MRData xmlns="http://ergast.com/mrd/1.4" series="f1" url="http://ergast.com/api/f1/2016/12/laps" limit="1000" offset="1000" total="1416">
+	<RaceTable season="2016" round="12">
+		<Race season="2016" round="12" url="https://en.wikipedia.org/wiki/2016_German_Grand_Prix">
+			<RaceName>German Grand Prix</RaceName>
+			<Circuit circuitId="hockenheimring" url="http://en.wikipedia.org/wiki/Hockenheimring">
+				<CircuitName>Hockenheimring</CircuitName>
+				<Location lat="49.3278" long="8.56583">
+					<Locality>Hockenheim</Locality>
+					<Country>Germany</Country>
+				</Location>
+			</Circuit>
+			<Date>2016-07-31</Date>
+			<Time>12:00:00Z</Time>
+			<LapsList>
+				<Lap number="46">
+					<Timing driverId="jolyon_palmer" lap="46" position="20" time="1:37.800"/>
+					<Timing driverId="nasr" lap="46" position="21" time="1:21.996"/>
+				</Lap>
+				<Lap number="47">
+					<Timing driverId="hamilton" lap="47" position="1" time="1:23.027"/>
+					<Timing driverId="ricciardo" lap="47" position="2" time="1:33.955"/>
+					<Timing driverId="max_verstappen" lap="47" position="3" time="1:18.910"/>
+					<Timing driverId="raikkonen" lap="47" position="4" time="1:24.532"/>
+					<Timing driverId="rosberg" lap="47" position="5" time="1:19.200"/>
+					<Timing driverId="vettel" lap="47" position="6" time="1:33.616"/>
+					<Timing driverId="bottas" lap="47" position="7" time="1:21.048"/>
+					<Timing driverId="hulkenberg" lap="47" position="8" time="1:20.891"/>
+					<Timing driverId="alonso" lap="47" position="9" time="1:24.763"/>
+					<Timing driverId="button" lap="47" position="10" time="1:34.510"/>
+					<Timing driverId="gutierrez" lap="47" position="11" time="1:25.064"/>
+					<Timing driverId="perez" lap="47" position="12" time="1:20.028"/>
+					<Timing driverId="sainz" lap="47" position="13" time="1:21.464"/>
+					<Timing driverId="kevin_magnussen" lap="47" position="14" time="1:21.892"/>
+					<Timing driverId="kvyat" lap="47" position="15" time="1:23.177"/>
+					<Timing driverId="grosjean" lap="47" position="16" time="1:20.530"/>
+					<Timing driverId="ericsson" lap="47" position="17" time="1:23.249"/>
+					<Timing driverId="wehrlein" lap="47" position="18" time="1:37.441"/>
+					<Timing driverId="haryanto" lap="47" position="19" time="1:22.654"/>
+					<Timing driverId="jolyon_palmer" lap="47" position="20" time="1:22.153"/>
+					<Timing driverId="nasr" lap="47" position="21" time="1:22.922"/>
+				</Lap>
+				<Lap number="48">
+					<Timing driverId="hamilton" lap="48" position="1" time="1:34.340"/>
+					<Timing driverId="ricciardo" lap="48" position="2" time="1:18.442"/>
+					<Timing driverId="max_verstappen" lap="48" position="3" time="1:19.262"/>
+					<Timing driverId="rosberg" lap="48" position="4" time="1:19.420"/>
+					<Timing driverId="vettel" lap="48" position="5" time="1:18.710"/>
+					<Timing driverId="raikkonen" lap="48" position="6" time="1:35.088"/>
+					<Timing driverId="bottas" lap="48" position="7" time="1:21.480"/>
+					<Timing driverId="hulkenberg" lap="48" position="8" time="1:21.051"/>
+					<Timing driverId="button" lap="48" position="9" time="1:19.781"/>
+					<Timing driverId="alonso" lap="48" position="10" time="1:34.833"/>
+					<Timing driverId="perez" lap="48" position="11" time="1:20.544"/>
+					<Timing driverId="sainz" lap="48" position="12" time="1:21.614"/>
+					<Timing driverId="kevin_magnussen" lap="48" position="13" time="1:21.701"/>
+					<Timing driverId="gutierrez" lap="48" position="14" time="1:37.585"/>
+					<Timing driverId="kvyat" lap="48" position="15" time="1:22.430"/>
+					<Timing driverId="grosjean" lap="48" position="16" time="1:20.768"/>
+					<Timing driverId="ericsson" lap="48" position="17" time="1:23.056"/>
+					<Timing driverId="wehrlein" lap="48" position="18" time="1:20.863"/>
+					<Timing driverId="haryanto" lap="48" position="19" time="1:22.557"/>
+					<Timing driverId="jolyon_palmer" lap="48" position="20" time="1:23.015"/>
+					<Timing driverId="nasr" lap="48" position="21" time="1:21.862"/>
+				</Lap>
+				<Lap number="49">
+					<Timing driverId="hamilton" lap="49" position="1" time="1:21.249"/>
+					<Timing driverId="ricciardo" lap="49" position="2" time="1:19.283"/>
+					<Timing driverId="max_verstappen" lap="49" position="3" time="1:19.569"/>
+					<Timing driverId="rosberg" lap="49" position="4" time="1:19.372"/>
+					<Timing driverId="vettel" lap="49" position="5" time="1:19.383"/>
+					<Timing driverId="raikkonen" lap="49" position="6" time="1:19.883"/>
+					<Timing driverId="bottas" lap="49" position="7" time="1:21.405"/>
+					<Timing driverId="hulkenberg" lap="49" position="8" time="1:20.762"/>
+					<Timing driverId="button" lap="49" position="9" time="1:19.938"/>
+					<Timing driverId="alonso" lap="49" position="10" time="1:20.531"/>
+					<Timing driverId="perez" lap="49" position="11" time="1:20.335"/>
+					<Timing driverId="sainz" lap="49" position="12" time="1:21.657"/>
+					<Timing driverId="kevin_magnussen" lap="49" position="13" time="1:23.112"/>
+					<Timing driverId="gutierrez" lap="49" position="14" time="1:20.904"/>
+					<Timing driverId="kvyat" lap="49" position="15" time="1:24.572"/>
+					<Timing driverId="grosjean" lap="49" position="16" time="1:21.237"/>
+					<Timing driverId="ericsson" lap="49" position="17" time="1:22.504"/>
+					<Timing driverId="wehrlein" lap="49" position="18" time="1:20.710"/>
+					<Timing driverId="jolyon_palmer" lap="49" position="19" time="1:21.982"/>
+					<Timing driverId="nasr" lap="49" position="20" time="1:22.733"/>
+					<Timing driverId="haryanto" lap="49" position="21" time="1:27.858"/>
+				</Lap>
+				<Lap number="50">
+					<Timing driverId="hamilton" lap="50" position="1" time="1:20.299"/>
+					<Timing driverId="ricciardo" lap="50" position="2" time="1:18.683"/>
+					<Timing driverId="max_verstappen" lap="50" position="3" time="1:19.469"/>
+					<Timing driverId="rosberg" lap="50" position="4" time="1:19.320"/>
+					<Timing driverId="vettel" lap="50" position="5" time="1:19.646"/>
+					<Timing driverId="raikkonen" lap="50" position="6" time="1:19.867"/>
+					<Timing driverId="bottas" lap="50" position="7" time="1:21.284"/>
+					<Timing driverId="hulkenberg" lap="50" position="8" time="1:21.201"/>
+					<Timing driverId="button" lap="50" position="9" time="1:20.796"/>
+					<Timing driverId="alonso" lap="50" position="10" time="1:20.132"/>
+					<Timing driverId="perez" lap="50" position="11" time="1:20.890"/>
+					<Timing driverId="sainz" lap="50" position="12" time="1:21.468"/>
+					<Timing driverId="kevin_magnussen" lap="50" position="13" time="1:21.814"/>
+					<Timing driverId="gutierrez" lap="50" position="14" time="1:21.865"/>
+					<Timing driverId="grosjean" lap="50" position="15" time="1:21.519"/>
+					<Timing driverId="kvyat" lap="50" position="16" time="1:35.199"/>
+					<Timing driverId="ericsson" lap="50" position="17" time="1:22.666"/>
+					<Timing driverId="wehrlein" lap="50" position="18" time="1:21.197"/>
+					<Timing driverId="jolyon_palmer" lap="50" position="19" time="1:23.373"/>
+					<Timing driverId="nasr" lap="50" position="20" time="1:23.319"/>
+					<Timing driverId="haryanto" lap="50" position="21" time="1:40.496"/>
+				</Lap>
+				<Lap number="51">
+					<Timing driverId="hamilton" lap="51" position="1" time="1:19.471"/>
+					<Timing driverId="ricciardo" lap="51" position="2" time="1:18.888"/>
+					<Timing driverId="max_verstappen" lap="51" position="3" time="1:18.919"/>
+					<Timing driverId="rosberg" lap="51" position="4" time="1:19.122"/>
+					<Timing driverId="vettel" lap="51" position="5" time="1:19.772"/>
+					<Timing driverId="raikkonen" lap="51" position="6" time="1:19.787"/>
+					<Timing driverId="bottas" lap="51" position="7" time="1:21.758"/>
+					<Timing driverId="hulkenberg" lap="51" position="8" time="1:20.960"/>
+					<Timing driverId="button" lap="51" position="9" time="1:20.344"/>
+					<Timing driverId="alonso" lap="51" position="10" time="1:20.197"/>
+					<Timing driverId="perez" lap="51" position="11" time="1:21.081"/>
+					<Timing driverId="sainz" lap="51" position="12" time="1:26.105"/>
+					<Timing driverId="gutierrez" lap="51" position="13" time="1:20.509"/>
+					<Timing driverId="kevin_magnussen" lap="51" position="14" time="1:23.627"/>
+					<Timing driverId="grosjean" lap="51" position="15" time="1:20.606"/>
+					<Timing driverId="kvyat" lap="51" position="16" time="1:19.585"/>
+					<Timing driverId="ericsson" lap="51" position="17" time="1:22.415"/>
+					<Timing driverId="wehrlein" lap="51" position="18" time="1:21.291"/>
+					<Timing driverId="jolyon_palmer" lap="51" position="19" time="1:23.395"/>
+					<Timing driverId="nasr" lap="51" position="20" time="1:22.107"/>
+					<Timing driverId="haryanto" lap="51" position="21" time="1:21.997"/>
+				</Lap>
+				<Lap number="52">
+					<Timing driverId="hamilton" lap="52" position="1" time="1:18.746"/>
+					<Timing driverId="ricciardo" lap="52" position="2" time="1:19.575"/>
+					<Timing driverId="max_verstappen" lap="52" position="3" time="1:19.852"/>
+					<Timing driverId="rosberg" lap="52" position="4" time="1:19.456"/>
+					<Timing driverId="vettel" lap="52" position="5" time="1:19.674"/>
+					<Timing driverId="raikkonen" lap="52" position="6" time="1:19.916"/>
+					<Timing driverId="bottas" lap="52" position="7" time="1:21.762"/>
+					<Timing driverId="hulkenberg" lap="52" position="8" time="1:20.373"/>
+					<Timing driverId="button" lap="52" position="9" time="1:20.531"/>
+					<Timing driverId="alonso" lap="52" position="10" time="1:20.138"/>
+					<Timing driverId="perez" lap="52" position="11" time="1:20.700"/>
+					<Timing driverId="gutierrez" lap="52" position="12" time="1:20.254"/>
+					<Timing driverId="kevin_magnussen" lap="52" position="13" time="1:23.362"/>
+					<Timing driverId="grosjean" lap="52" position="14" time="1:20.887"/>
+					<Timing driverId="sainz" lap="52" position="15" time="1:36.166"/>
+					<Timing driverId="kvyat" lap="52" position="16" time="1:20.019"/>
+					<Timing driverId="ericsson" lap="52" position="17" time="1:23.883"/>
+					<Timing driverId="wehrlein" lap="52" position="18" time="1:21.210"/>
+					<Timing driverId="jolyon_palmer" lap="52" position="19" time="1:21.781"/>
+					<Timing driverId="nasr" lap="52" position="20" time="1:21.981"/>
+					<Timing driverId="haryanto" lap="52" position="21" time="1:23.570"/>
+				</Lap>
+				<Lap number="53">
+					<Timing driverId="hamilton" lap="53" position="1" time="1:18.807"/>
+					<Timing driverId="ricciardo" lap="53" position="2" time="1:19.589"/>
+					<Timing driverId="max_verstappen" lap="53" position="3" time="1:19.451"/>
+					<Timing driverId="rosberg" lap="53" position="4" time="1:19.455"/>
+					<Timing driverId="vettel" lap="53" position="5" time="1:19.704"/>
+					<Timing driverId="raikkonen" lap="53" position="6" time="1:19.703"/>
+					<Timing driverId="bottas" lap="53" position="7" time="1:21.832"/>
+					<Timing driverId="hulkenberg" lap="53" position="8" time="1:20.559"/>
+					<Timing driverId="button" lap="53" position="9" time="1:21.868"/>
+					<Timing driverId="alonso" lap="53" position="10" time="1:20.222"/>
+					<Timing driverId="perez" lap="53" position="11" time="1:20.415"/>
+					<Timing driverId="gutierrez" lap="53" position="12" time="1:21.436"/>
+					<Timing driverId="kevin_magnussen" lap="53" position="13" time="1:22.224"/>
+					<Timing driverId="grosjean" lap="53" position="14" time="1:21.967"/>
+					<Timing driverId="sainz" lap="53" position="15" time="1:20.295"/>
+					<Timing driverId="kvyat" lap="53" position="16" time="1:19.855"/>
+					<Timing driverId="ericsson" lap="53" position="17" time="1:23.029"/>
+					<Timing driverId="wehrlein" lap="53" position="18" time="1:21.709"/>
+					<Timing driverId="jolyon_palmer" lap="53" position="19" time="1:21.771"/>
+					<Timing driverId="nasr" lap="53" position="20" time="1:22.758"/>
+					<Timing driverId="haryanto" lap="53" position="21" time="1:22.350"/>
+				</Lap>
+				<Lap number="54">
+					<Timing driverId="hamilton" lap="54" position="1" time="1:19.606"/>
+					<Timing driverId="ricciardo" lap="54" position="2" time="1:19.196"/>
+					<Timing driverId="max_verstappen" lap="54" position="3" time="1:19.153"/>
+					<Timing driverId="rosberg" lap="54" position="4" time="1:20.111"/>
+					<Timing driverId="vettel" lap="54" position="5" time="1:20.146"/>
+					<Timing driverId="raikkonen" lap="54" position="6" time="1:19.801"/>
+					<Timing driverId="bottas" lap="54" position="7" time="1:21.701"/>
+					<Timing driverId="hulkenberg" lap="54" position="8" time="1:20.755"/>
+					<Timing driverId="button" lap="54" position="9" time="1:20.584"/>
+					<Timing driverId="alonso" lap="54" position="10" time="1:20.274"/>
+					<Timing driverId="perez" lap="54" position="11" time="1:20.271"/>
+					<Timing driverId="gutierrez" lap="54" position="12" time="1:21.873"/>
+					<Timing driverId="grosjean" lap="54" position="13" time="1:20.964"/>
+					<Timing driverId="kevin_magnussen" lap="54" position="14" time="1:23.780"/>
+					<Timing driverId="sainz" lap="54" position="15" time="1:19.957"/>
+					<Timing driverId="kvyat" lap="54" position="16" time="1:19.974"/>
+					<Timing driverId="wehrlein" lap="54" position="17" time="1:21.905"/>
+					<Timing driverId="ericsson" lap="54" position="18" time="1:23.780"/>
+					<Timing driverId="jolyon_palmer" lap="54" position="19" time="1:22.555"/>
+					<Timing driverId="nasr" lap="54" position="20" time="1:21.841"/>
+					<Timing driverId="haryanto" lap="54" position="21" time="1:24.224"/>
+				</Lap>
+				<Lap number="55">
+					<Timing driverId="hamilton" lap="55" position="1" time="1:20.105"/>
+					<Timing driverId="ricciardo" lap="55" position="2" time="1:19.039"/>
+					<Timing driverId="max_verstappen" lap="55" position="3" time="1:19.427"/>
+					<Timing driverId="rosberg" lap="55" position="4" time="1:19.474"/>
+					<Timing driverId="vettel" lap="55" position="5" time="1:20.033"/>
+					<Timing driverId="raikkonen" lap="55" position="6" time="1:20.564"/>
+					<Timing driverId="bottas" lap="55" position="7" time="1:22.080"/>
+					<Timing driverId="hulkenberg" lap="55" position="8" time="1:20.747"/>
+					<Timing driverId="button" lap="55" position="9" time="1:20.580"/>
+					<Timing driverId="alonso" lap="55" position="10" time="1:20.401"/>
+					<Timing driverId="perez" lap="55" position="11" time="1:20.267"/>
+					<Timing driverId="gutierrez" lap="55" position="12" time="1:20.317"/>
+					<Timing driverId="grosjean" lap="55" position="13" time="1:21.196"/>
+					<Timing driverId="kevin_magnussen" lap="55" position="14" time="1:22.278"/>
+					<Timing driverId="sainz" lap="55" position="15" time="1:20.463"/>
+					<Timing driverId="kvyat" lap="55" position="16" time="1:20.342"/>
+					<Timing driverId="wehrlein" lap="55" position="17" time="1:21.763"/>
+					<Timing driverId="ericsson" lap="55" position="18" time="1:23.075"/>
+					<Timing driverId="jolyon_palmer" lap="55" position="19" time="1:21.127"/>
+					<Timing driverId="nasr" lap="55" position="20" time="1:23.205"/>
+					<Timing driverId="haryanto" lap="55" position="21" time="1:23.092"/>
+				</Lap>
+				<Lap number="56">
+					<Timing driverId="hamilton" lap="56" position="1" time="1:19.373"/>
+					<Timing driverId="ricciardo" lap="56" position="2" time="1:19.320"/>
+					<Timing driverId="max_verstappen" lap="56" position="3" time="1:19.037"/>
+					<Timing driverId="rosberg" lap="56" position="4" time="1:19.272"/>
+					<Timing driverId="vettel" lap="56" position="5" time="1:20.568"/>
+					<Timing driverId="raikkonen" lap="56" position="6" time="1:20.127"/>
+					<Timing driverId="bottas" lap="56" position="7" time="1:21.984"/>
+					<Timing driverId="hulkenberg" lap="56" position="8" time="1:20.757"/>
+					<Timing driverId="button" lap="56" position="9" time="1:20.572"/>
+					<Timing driverId="alonso" lap="56" position="10" time="1:20.989"/>
+					<Timing driverId="perez" lap="56" position="11" time="1:20.392"/>
+					<Timing driverId="gutierrez" lap="56" position="12" time="1:19.883"/>
+					<Timing driverId="grosjean" lap="56" position="13" time="1:20.356"/>
+					<Timing driverId="kevin_magnussen" lap="56" position="14" time="1:22.683"/>
+					<Timing driverId="sainz" lap="56" position="15" time="1:20.740"/>
+					<Timing driverId="kvyat" lap="56" position="16" time="1:20.620"/>
+					<Timing driverId="wehrlein" lap="56" position="17" time="1:21.572"/>
+					<Timing driverId="ericsson" lap="56" position="18" time="1:24.113"/>
+					<Timing driverId="jolyon_palmer" lap="56" position="19" time="1:22.507"/>
+					<Timing driverId="nasr" lap="56" position="20" time="1:22.746"/>
+					<Timing driverId="haryanto" lap="56" position="21" time="1:21.845"/>
+				</Lap>
+				<Lap number="57">
+					<Timing driverId="hamilton" lap="57" position="1" time="1:19.227"/>
+					<Timing driverId="ricciardo" lap="57" position="2" time="1:19.707"/>
+					<Timing driverId="max_verstappen" lap="57" position="3" time="1:19.240"/>
+					<Timing driverId="rosberg" lap="57" position="4" time="1:19.272"/>
+					<Timing driverId="vettel" lap="57" position="5" time="1:19.846"/>
+					<Timing driverId="raikkonen" lap="57" position="6" time="1:20.359"/>
+					<Timing driverId="bottas" lap="57" position="7" time="1:21.910"/>
+					<Timing driverId="hulkenberg" lap="57" position="8" time="1:21.280"/>
+					<Timing driverId="button" lap="57" position="9" time="1:20.987"/>
+					<Timing driverId="alonso" lap="57" position="10" time="1:21.307"/>
+					<Timing driverId="perez" lap="57" position="11" time="1:21.325"/>
+					<Timing driverId="gutierrez" lap="57" position="12" time="1:20.313"/>
+					<Timing driverId="grosjean" lap="57" position="13" time="1:20.440"/>
+					<Timing driverId="sainz" lap="57" position="14" time="1:20.566"/>
+					<Timing driverId="kevin_magnussen" lap="57" position="15" time="1:22.801"/>
+					<Timing driverId="kvyat" lap="57" position="16" time="1:21.715"/>
+					<Timing driverId="wehrlein" lap="57" position="17" time="1:21.702"/>
+					<Timing driverId="ericsson" lap="57" position="18" time="1:23.198"/>
+					<Timing driverId="jolyon_palmer" lap="57" position="19" time="1:23.435"/>
+					<Timing driverId="nasr" lap="57" position="20" time="1:21.976"/>
+					<Timing driverId="haryanto" lap="57" position="21" time="1:22.298"/>
+				</Lap>
+				<Lap number="58">
+					<Timing driverId="hamilton" lap="58" position="1" time="1:19.685"/>
+					<Timing driverId="ricciardo" lap="58" position="2" time="1:19.878"/>
+					<Timing driverId="max_verstappen" lap="58" position="3" time="1:19.604"/>
+					<Timing driverId="rosberg" lap="58" position="4" time="1:19.368"/>
+					<Timing driverId="vettel" lap="58" position="5" time="1:19.875"/>
+					<Timing driverId="raikkonen" lap="58" position="6" time="1:20.281"/>
+					<Timing driverId="bottas" lap="58" position="7" time="1:22.129"/>
+					<Timing driverId="hulkenberg" lap="58" position="8" time="1:20.598"/>
+					<Timing driverId="button" lap="58" position="9" time="1:21.040"/>
+					<Timing driverId="alonso" lap="58" position="10" time="1:21.499"/>
+					<Timing driverId="perez" lap="58" position="11" time="1:22.436"/>
+					<Timing driverId="gutierrez" lap="58" position="12" time="1:20.840"/>
+					<Timing driverId="grosjean" lap="58" position="13" time="1:20.250"/>
+					<Timing driverId="sainz" lap="58" position="14" time="1:20.494"/>
+					<Timing driverId="kevin_magnussen" lap="58" position="15" time="1:22.292"/>
+					<Timing driverId="kvyat" lap="58" position="16" time="1:22.494"/>
+					<Timing driverId="wehrlein" lap="58" position="17" time="1:22.241"/>
+					<Timing driverId="ericsson" lap="58" position="18" time="1:22.933"/>
+					<Timing driverId="jolyon_palmer" lap="58" position="19" time="1:21.767"/>
+					<Timing driverId="haryanto" lap="58" position="20" time="1:23.205"/>
+				</Lap>
+				<Lap number="59">
+					<Timing driverId="hamilton" lap="59" position="1" time="1:19.551"/>
+					<Timing driverId="ricciardo" lap="59" position="2" time="1:19.427"/>
+					<Timing driverId="max_verstappen" lap="59" position="3" time="1:19.754"/>
+					<Timing driverId="rosberg" lap="59" position="4" time="1:19.818"/>
+					<Timing driverId="vettel" lap="59" position="5" time="1:20.450"/>
+					<Timing driverId="raikkonen" lap="59" position="6" time="1:20.822"/>
+					<Timing driverId="bottas" lap="59" position="7" time="1:22.185"/>
+					<Timing driverId="hulkenberg" lap="59" position="8" time="1:20.738"/>
+					<Timing driverId="button" lap="59" position="9" time="1:21.114"/>
+					<Timing driverId="alonso" lap="59" position="10" time="1:21.691"/>
+					<Timing driverId="perez" lap="59" position="11" time="1:20.867"/>
+					<Timing driverId="gutierrez" lap="59" position="12" time="1:22.221"/>
+					<Timing driverId="grosjean" lap="59" position="13" time="1:20.942"/>
+					<Timing driverId="sainz" lap="59" position="14" time="1:20.823"/>
+					<Timing driverId="kvyat" lap="59" position="15" time="1:21.108"/>
+					<Timing driverId="kevin_magnussen" lap="59" position="16" time="1:23.477"/>
+					<Timing driverId="wehrlein" lap="59" position="17" time="1:24.213"/>
+					<Timing driverId="ericsson" lap="59" position="18" time="1:22.773"/>
+					<Timing driverId="jolyon_palmer" lap="59" position="19" time="1:21.879"/>
+					<Timing driverId="haryanto" lap="59" position="20" time="1:22.727"/>
+				</Lap>
+				<Lap number="60">
+					<Timing driverId="hamilton" lap="60" position="1" time="1:19.874"/>
+					<Timing driverId="ricciardo" lap="60" position="2" time="1:19.367"/>
+					<Timing driverId="max_verstappen" lap="60" position="3" time="1:19.663"/>
+					<Timing driverId="rosberg" lap="60" position="4" time="1:20.088"/>
+					<Timing driverId="vettel" lap="60" position="5" time="1:20.548"/>
+					<Timing driverId="raikkonen" lap="60" position="6" time="1:20.695"/>
+					<Timing driverId="bottas" lap="60" position="7" time="1:22.677"/>
+					<Timing driverId="hulkenberg" lap="60" position="8" time="1:20.842"/>
+					<Timing driverId="button" lap="60" position="9" time="1:21.215"/>
+					<Timing driverId="alonso" lap="60" position="10" time="1:22.968"/>
+					<Timing driverId="perez" lap="60" position="11" time="1:21.180"/>
+					<Timing driverId="gutierrez" lap="60" position="12" time="1:20.530"/>
+					<Timing driverId="grosjean" lap="60" position="13" time="1:20.492"/>
+					<Timing driverId="sainz" lap="60" position="14" time="1:20.439"/>
+					<Timing driverId="kvyat" lap="60" position="15" time="1:20.906"/>
+					<Timing driverId="kevin_magnussen" lap="60" position="16" time="1:23.243"/>
+					<Timing driverId="wehrlein" lap="60" position="17" time="1:22.702"/>
+					<Timing driverId="ericsson" lap="60" position="18" time="1:23.093"/>
+					<Timing driverId="jolyon_palmer" lap="60" position="19" time="1:23.399"/>
+					<Timing driverId="haryanto" lap="60" position="20" time="1:22.721"/>
+				</Lap>
+				<Lap number="61">
+					<Timing driverId="hamilton" lap="61" position="1" time="1:20.135"/>
+					<Timing driverId="ricciardo" lap="61" position="2" time="1:19.437"/>
+					<Timing driverId="max_verstappen" lap="61" position="3" time="1:19.610"/>
+					<Timing driverId="rosberg" lap="61" position="4" time="1:20.091"/>
+					<Timing driverId="vettel" lap="61" position="5" time="1:20.298"/>
+					<Timing driverId="raikkonen" lap="61" position="6" time="1:20.458"/>
+					<Timing driverId="hulkenberg" lap="61" position="7" time="1:21.259"/>
+					<Timing driverId="bottas" lap="61" position="8" time="1:24.667"/>
+					<Timing driverId="button" lap="61" position="9" time="1:21.549"/>
+					<Timing driverId="alonso" lap="61" position="10" time="1:22.132"/>
+					<Timing driverId="perez" lap="61" position="11" time="1:21.381"/>
+					<Timing driverId="gutierrez" lap="61" position="12" time="1:20.992"/>
+					<Timing driverId="grosjean" lap="61" position="13" time="1:23.119"/>
+					<Timing driverId="sainz" lap="61" position="14" time="1:20.358"/>
+					<Timing driverId="kvyat" lap="61" position="15" time="1:20.499"/>
+					<Timing driverId="kevin_magnussen" lap="61" position="16" time="1:22.560"/>
+					<Timing driverId="wehrlein" lap="61" position="17" time="1:23.219"/>
+					<Timing driverId="ericsson" lap="61" position="18" time="1:22.876"/>
+					<Timing driverId="jolyon_palmer" lap="61" position="19" time="1:22.939"/>
+					<Timing driverId="haryanto" lap="61" position="20" time="1:22.490"/>
+				</Lap>
+				<Lap number="62">
+					<Timing driverId="hamilton" lap="62" position="1" time="1:19.568"/>
+					<Timing driverId="ricciardo" lap="62" position="2" time="1:19.811"/>
+					<Timing driverId="max_verstappen" lap="62" position="3" time="1:19.741"/>
+					<Timing driverId="rosberg" lap="62" position="4" time="1:19.800"/>
+					<Timing driverId="vettel" lap="62" position="5" time="1:20.329"/>
+					<Timing driverId="raikkonen" lap="62" position="6" time="1:20.436"/>
+					<Timing driverId="hulkenberg" lap="62" position="7" time="1:21.158"/>
+					<Timing driverId="bottas" lap="62" position="8" time="1:23.764"/>
+					<Timing driverId="button" lap="62" position="9" time="1:23.159"/>
+					<Timing driverId="alonso" lap="62" position="10" time="1:23.229"/>
+					<Timing driverId="perez" lap="62" position="11" time="1:22.962"/>
+					<Timing driverId="gutierrez" lap="62" position="12" time="1:21.159"/>
+					<Timing driverId="grosjean" lap="62" position="13" time="1:20.717"/>
+					<Timing driverId="sainz" lap="62" position="14" time="1:20.298"/>
+					<Timing driverId="kvyat" lap="62" position="15" time="1:20.337"/>
+					<Timing driverId="kevin_magnussen" lap="62" position="16" time="1:22.373"/>
+					<Timing driverId="wehrlein" lap="62" position="17" time="1:23.563"/>
+					<Timing driverId="ericsson" lap="62" position="18" time="1:24.225"/>
+					<Timing driverId="jolyon_palmer" lap="62" position="19" time="1:21.801"/>
+					<Timing driverId="haryanto" lap="62" position="20" time="1:22.666"/>
+				</Lap>
+				<Lap number="63">
+					<Timing driverId="hamilton" lap="63" position="1" time="1:19.891"/>
+					<Timing driverId="ricciardo" lap="63" position="2" time="1:20.485"/>
+					<Timing driverId="max_verstappen" lap="63" position="3" time="1:20.414"/>
+					<Timing driverId="rosberg" lap="63" position="4" time="1:19.658"/>
+					<Timing driverId="vettel" lap="63" position="5" time="1:20.262"/>
+					<Timing driverId="raikkonen" lap="63" position="6" time="1:20.360"/>
+					<Timing driverId="hulkenberg" lap="63" position="7" time="1:20.879"/>
+					<Timing driverId="bottas" lap="63" position="8" time="1:25.189"/>
+					<Timing driverId="button" lap="63" position="9" time="1:21.924"/>
+					<Timing driverId="alonso" lap="63" position="10" time="1:22.863"/>
+					<Timing driverId="perez" lap="63" position="11" time="1:23.475"/>
+					<Timing driverId="gutierrez" lap="63" position="12" time="1:20.300"/>
+					<Timing driverId="grosjean" lap="63" position="13" time="1:20.655"/>
+					<Timing driverId="sainz" lap="63" position="14" time="1:20.506"/>
+					<Timing driverId="kvyat" lap="63" position="15" time="1:20.314"/>
+					<Timing driverId="kevin_magnussen" lap="63" position="16" time="1:22.667"/>
+					<Timing driverId="wehrlein" lap="63" position="17" time="1:23.042"/>
+					<Timing driverId="ericsson" lap="63" position="18" time="1:25.283"/>
+					<Timing driverId="jolyon_palmer" lap="63" position="19" time="1:21.915"/>
+					<Timing driverId="haryanto" lap="63" position="20" time="1:22.576"/>
+				</Lap>
+				<Lap number="64">
+					<Timing driverId="hamilton" lap="64" position="1" time="1:20.308"/>
+					<Timing driverId="ricciardo" lap="64" position="2" time="1:20.078"/>
+					<Timing driverId="max_verstappen" lap="64" position="3" time="1:21.451"/>
+					<Timing driverId="rosberg" lap="64" position="4" time="1:19.909"/>
+					<Timing driverId="vettel" lap="64" position="5" time="1:20.362"/>
+					<Timing driverId="raikkonen" lap="64" position="6" time="1:20.125"/>
+					<Timing driverId="hulkenberg" lap="64" position="7" time="1:21.074"/>
+					<Timing driverId="bottas" lap="64" position="8" time="1:26.006"/>
+					<Timing driverId="button" lap="64" position="9" time="1:21.642"/>
+					<Timing driverId="perez" lap="64" position="10" time="1:22.562"/>
+					<Timing driverId="alonso" lap="64" position="11" time="1:25.844"/>
+					<Timing driverId="gutierrez" lap="64" position="12" time="1:20.643"/>
+					<Timing driverId="grosjean" lap="64" position="13" time="1:20.729"/>
+					<Timing driverId="sainz" lap="64" position="14" time="1:20.775"/>
+					<Timing driverId="kvyat" lap="64" position="15" time="1:20.365"/>
+					<Timing driverId="kevin_magnussen" lap="64" position="16" time="1:22.229"/>
+					<Timing driverId="wehrlein" lap="64" position="17" time="1:24.521"/>
+					<Timing driverId="ericsson" lap="64" position="18" time="1:23.718"/>
+					<Timing driverId="jolyon_palmer" lap="64" position="19" time="1:21.853"/>
+					<Timing driverId="haryanto" lap="64" position="20" time="1:22.991"/>
+				</Lap>
+				<Lap number="65">
+					<Timing driverId="hamilton" lap="65" position="1" time="1:20.663"/>
+					<Timing driverId="ricciardo" lap="65" position="2" time="1:20.794"/>
+					<Timing driverId="max_verstappen" lap="65" position="3" time="1:21.347"/>
+					<Timing driverId="rosberg" lap="65" position="4" time="1:21.097"/>
+					<Timing driverId="vettel" lap="65" position="5" time="1:20.623"/>
+					<Timing driverId="raikkonen" lap="65" position="6" time="1:20.281"/>
+					<Timing driverId="hulkenberg" lap="65" position="7" time="1:20.581"/>
+					<Timing driverId="button" lap="65" position="8" time="1:21.767"/>
+					<Timing driverId="bottas" lap="65" position="9" time="1:26.691"/>
+					<Timing driverId="perez" lap="65" position="10" time="1:21.917"/>
+					<Timing driverId="alonso" lap="65" position="11" time="1:24.593"/>
+					<Timing driverId="gutierrez" lap="65" position="12" time="1:20.890"/>
+					<Timing driverId="grosjean" lap="65" position="13" time="1:20.944"/>
+					<Timing driverId="sainz" lap="65" position="14" time="1:20.989"/>
+					<Timing driverId="kvyat" lap="65" position="15" time="1:20.554"/>
+					<Timing driverId="kevin_magnussen" lap="65" position="16" time="1:22.670"/>
+					<Timing driverId="wehrlein" lap="65" position="17" time="1:24.655"/>
+					<Timing driverId="ericsson" lap="65" position="18" time="1:25.526"/>
+					<Timing driverId="jolyon_palmer" lap="65" position="19" time="1:22.900"/>
+					<Timing driverId="haryanto" lap="65" position="20" time="1:23.168"/>
+				</Lap>
+				<Lap number="66">
+					<Timing driverId="hamilton" lap="66" position="1" time="1:20.527"/>
+					<Timing driverId="ricciardo" lap="66" position="2" time="1:21.372"/>
+					<Timing driverId="max_verstappen" lap="66" position="3" time="1:21.540"/>
+					<Timing driverId="rosberg" lap="66" position="4" time="1:21.066"/>
+					<Timing driverId="vettel" lap="66" position="5" time="1:20.717"/>
+					<Timing driverId="raikkonen" lap="66" position="6" time="1:21.338"/>
+					<Timing driverId="hulkenberg" lap="66" position="7" time="1:20.842"/>
+					<Timing driverId="button" lap="66" position="8" time="1:24.753"/>
+					<Timing driverId="bottas" lap="66" position="9" time="1:26.404"/>
+					<Timing driverId="perez" lap="66" position="10" time="1:21.732"/>
+					<Timing driverId="gutierrez" lap="66" position="11" time="1:23.036"/>
+					<Timing driverId="alonso" lap="66" position="12" time="1:28.199"/>
+					<Timing driverId="grosjean" lap="66" position="13" time="1:21.998"/>
+					<Timing driverId="sainz" lap="66" position="14" time="1:22.873"/>
+					<Timing driverId="kvyat" lap="66" position="15" time="1:20.987"/>
+					<Timing driverId="kevin_magnussen" lap="66" position="16" time="1:22.935"/>
+				</Lap>
+				<Lap number="67">
+					<Timing driverId="hamilton" lap="67" position="1" time="1:22.354"/>
+					<Timing driverId="ricciardo" lap="67" position="2" time="1:21.979"/>
+					<Timing driverId="max_verstappen" lap="67" position="3" time="1:23.289"/>
+					<Timing driverId="rosberg" lap="67" position="4" time="1:21.847"/>
+					<Timing driverId="vettel" lap="67" position="5" time="1:28.134"/>
+					<Timing driverId="raikkonen" lap="67" position="6" time="1:21.431"/>
+					<Timing driverId="hulkenberg" lap="67" position="7" time="1:22.810"/>
+				</Lap>
+			</LapsList>
+		</Race>
+	</RaceTable>
+</MRData>
