@@ -1,0 +1,26 @@
+Pos.,No.,Driver,Constructor,Laps,Time/Retired,Grid,Points
+1,6,Nico Rosberg,Mercedes,53,1:17:28.089,2,25
+2,44,Lewis Hamilton,Mercedes,53,+15.070,1,18
+3,5,Sebastian Vettel,Ferrari,53,+20.990,3,15
+4,7,Kimi Räikkönen,Ferrari,53,+27.561,4,12
+5,3,Daniel Ricciardo,Red Bull Racing-TAG Heuer,53,+45.295,6,10
+6,77,Valtteri Bottas,Williams-Mercedes,53,+51.015,5,8
+7,33,Max Verstappen,Red Bull Racing-TAG Heuer,53,+54.236,7,6
+8,11,Sergio Pérez,Force India-Mercedes,53,+1:04.954,8,4
+9,19,Felipe Massa,Williams-Mercedes,53,+1.05.617,11,2
+10,27,Nico Hülkenberg,Force India-Mercedes,53,+1:18.656,9,1
+11,8,Romain Grosjean,Haas-Ferrari,52,+1 Lap,17,
+12,22,Jenson Button,McLaren-Honda,52,+1 Lap,14,
+13,21,Esteban Gutiérrez,Haas-Ferrari,52,+1 Lap,10,
+14,14,Fernando Alonso,McLaren-Honda,52,+1 Lap,12,
+15,55,Carlos Sainz Jr.,Toro Rosso-Ferrari,52,+1 Lap,15,
+16,9,Marcus Ericsson,Sauber-Ferrari,52,+1 Lap,19,
+17,20,Kevin Magnussen,Renault,52,+1 Lap,21,
+18,31,Esteban Ocon,MRT-Mercedes,51,+2 Laps,22,
+Ret,26,Daniil Kvyat,Toro Rosso-Ferrari,36,Battery,16,
+Ret,94,Pascal Wehrlein,MRT-Mercedes,26,Oil leak,13,
+Ret,30,Jolyon Palmer,Renault,7,Collision damage,20,
+Ret,12,Felipe Nasr,Sauber-Ferrari,6,Collision damage,18,
+Source:
+Total Laps,53
+Fastest Lap,Fernando Alonso

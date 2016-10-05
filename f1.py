@@ -19,7 +19,7 @@ from unidecode import unidecode
 seasons = pd.DataFrame.from_csv('season_info.csv')
 RACES = list(seasons['Country'])
 URLs = {seasons['Country'][i]:seasons['url'][i] for i in range(len(seasons))}
-drivers = pd.DataFrame.from_csv('driver_info.csv')
+drivers = pd.DataFrame.from_csv('driver_info.csv', encoding = 'ISO-8859-1')
 DRIVERS = list(drivers['GivenName'] + " " + drivers['FamilyName'])
 conv_DRIVERS = {unidecode(drivers['FamilyName'][i]):(drivers['GivenName'][i] + " " + drivers['FamilyName'][i])
                 for i in range(len(drivers))}

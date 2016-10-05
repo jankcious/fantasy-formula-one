@@ -1,0 +1,26 @@
+Pos.,No.,Driver,Constructor,Laps,Time/Retired,Grid,Points
+1,6,Nico Rosberg,Mercedes,44,1:44:51.058,1,25
+2,3,Daniel Ricciardo,Red Bull Racing-TAG Heuer,44,+14.113,5,18
+3,44,Lewis Hamilton,Mercedes,44,+27.634,21,15
+4,27,Nico Hülkenberg,Force India-Mercedes,44,+35.907,7,12
+5,11,Sergio Pérez,Force India-Mercedes,44,+40.660,6,10
+6,5,Sebastian Vettel,Ferrari,44,+45.394,4,8
+7,14,Fernando Alonso,McLaren-Honda,44,+59.445,22,6
+8,77,Valtteri Bottas,Williams-Mercedes,44,+1:00.151,8,4
+9,7,Kimi Räikkönen,Ferrari,44,+1:01.109,3,2
+10,19,Felipe Massa,Williams-Mercedes,44,+1:05.873,10,1
+11,33,Max Verstappen,Red Bull Racing-TAG Heuer,44,+1:11.138,2,
+12,21,Esteban Gutiérrez,Haas-Ferrari,44,+1:13.877,18,
+13,8,Romain Grosjean,Haas-Ferrari,44,+1:16.474,11,
+14,26,Daniil Kvyat,Toro Rosso-Ferrari,44,+1:27.097,19,
+15,30,Jolyon Palmer,Renault,44,+1:33.165,13,
+16,31,Esteban Ocon,MRT-Mercedes,43,+1 Lap,17,
+17,12,Felipe Nasr,Sauber-Ferrari,43,+1 Lap,16,
+Ret,20,Kevin Magnussen,Renault,5,Accident,12,
+Ret,9,Marcus Ericsson,Sauber-Ferrari,3,Gearbox,20,
+Ret,55,Carlos Sainz Jr.,Toro Rosso-Ferrari,1,Puncture,14,
+Ret,22,Jenson Button,McLaren-Honda,1,Collision damage,9,
+Ret,94,Pascal Wehrlein,MRT-Mercedes,0,Collision,15,
+Source:
+Total Laps,44
+Fastest Lap,Lewis Hamilton

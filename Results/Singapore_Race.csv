@@ -1,0 +1,26 @@
+Pos.,No.,Driver,Constructor,Laps,Time/Retired,Grid,Points
+1,6,Nico Rosberg,Mercedes,61,1:55:48.950,1,25
+2,3,Daniel Ricciardo,Red Bull Racing-TAG Heuer,61,+0.488,2,18
+3,44,Lewis Hamilton,Mercedes,61,+8.038,3,15
+4,7,Kimi Räikkönen,Ferrari,61,+10.219,5,12
+5,5,Sebastian Vettel,Ferrari,61,+27.694,22,10
+6,33,Max Verstappen,Red Bull Racing-TAG Heuer,61,+1:11.197,4,8
+7,14,Fernando Alonso,McLaren-Honda,61,+1:29.198,9,6
+8,11,Sergio Pérez,Force India-Mercedes,61,+1:51.062,17,4
+9,26,Daniil Kvyat,Toro Rosso-Ferrari,61,+1:51.557,7,2
+10,20,Kevin Magnussen,Renault,61,+1:59.952,15,1
+11,21,Esteban Gutiérrez,Haas-Ferrari,60,+1 Lap,13,
+12,19,Felipe Massa,Williams-Mercedes,60,+1 Lap,11,
+13,12,Felipe Nasr,Sauber-Ferrari,60,+1 Lap,16,
+14,55,Carlos Sainz Jr.,Toro Rosso-Ferrari,60,+1 Lap,6,
+15,30,Jolyon Palmer,Renault,60,+1 Lap,18,
+16,94,Pascal Wehrlein,MRT-Mercedes,60,+1 Lap,19,
+17,9,Marcus Ericsson,Sauber-Ferrari,60,+1 Lap,14,
+18,31,Esteban Ocon,MRT-Mercedes,59,+2 Laps,21,
+Ret,22,Jenson Button,McLaren-Honda,43,Brakes,12,
+Ret,77,Valtteri Bottas,Williams-Mercedes,35,Overheating,10,
+Ret,27,Nico Hülkenberg,Force India-Mercedes,0,Collision,8,
+DNS,8,Romain Grosjean,Haas-Ferrari,0,Brakes,20,
+Source:
+Total Laps,61
+Fastest Lap,Daniel Ricciardo
