@@ -248,6 +248,7 @@ class Race():
                     fantasy_points.ix[driver, 'Completion'] = 0
         else:
             for driver, laps in self.laps_completed.items():
+                print(driver, laps)
                 if self.classified[driver]:
                     fantasy_points.ix[driver, 'Completion'] = 3
                 elif int(laps) / self.lap_length >= .5:

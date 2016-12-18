@@ -1,0 +1,26 @@
+Pos.,No.,Driver,Constructor,Laps,Time/Retired,Grid,Points
+1,44,Lewis Hamilton,Mercedes,71,3:01:01.335,1,25
+2,6,Nico Rosberg,Mercedes,71,+11.455,2,18
+3,33,Max Verstappen,Red Bull Racing-TAG Heuer,71,+21.481,4,15
+4,11,Sergio Pérez,Force India-Mercedes,71,+25.346,9,12
+5,5,Sebastian Vettel,Ferrari,71,+26.334,5,10
+6,55,Carlos Sainz Jr.,Toro Rosso-Ferrari,71,+29.160,15,8
+7,27,Nico Hülkenberg,Force India-Mercedes,71,+29.827,8,6
+8,3,Daniel Ricciardo,Red Bull Racing-TAG Heuer,71,+30.486,6,4
+9,12,Felipe Nasr,Sauber-Ferrari,71,+42.620,21,2
+10,14,Fernando Alonso,McLaren-Honda,71,+44.432,10,1
+11,77,Valtteri Bottas,Williams-Mercedes,71,+45.292,11,
+12,31,Esteban Ocon,MRT-Mercedes,71,+45.809,22,
+13,26,Daniil Kvyat,Toro Rosso-Ferrari,71,+51.192,14,
+14,20,Kevin Magnussen,Renault,71,+51.555,18,
+15,94,Pascal Wehrlein,MRT-Mercedes,71,+1:00.498,19,
+16,22,Jenson Button,McLaren-Honda,71,+1:21.994,17,
+Ret,21,Esteban Gutiérrez,Haas-Ferrari,60,Electrical,12,
+Ret,19,Felipe Massa,Williams-Mercedes,46,Accident,13,
+Ret,30,Jolyon Palmer,Renault,20,Collision damage,16,
+Ret,7,Kimi Räikkönen,Ferrari,19,Accident,3,
+Ret,9,Marcus Ericsson,Sauber-Ferrari,11,Accident,20,
+DNS,8,Romain Grosjean,Haas-Ferrari,0,Accident,—,
+Source:
+Total Laps,71
+Fastest Lap,Max Verstappen
